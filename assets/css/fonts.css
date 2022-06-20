@@ -93,6 +93,11 @@
     src: url("../fonts/Newyork/NewYork.otf");
 }
 
+@font-face{
+    font-family: "Heebo-Light";
+    src: url("../fonts/Heebo/Heebo-Light.ttf");
+}
+
 
 .montserrat-black{
     font-family: "Montserrat-Black";
@@ -167,6 +172,12 @@
 
 .NewYork{
     font-family: "NewYork";
+}
+
+.heebo-light{
+    font-family: "Heebo-Light";
+    text-shadow: 1.3px 1.3px 1.3px rgb(0 0 0 / 10%);
+    letter-spacing: 2px;
 }
 
 .tittle_menu{
