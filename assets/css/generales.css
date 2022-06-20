@@ -1,0 +1,27 @@
+.dropdown-toggle::after{
+    display: none;
+    font-family: "Montserrat-SemiBold";
+    letter-spacing: 5px;
+    font-size: 18px;
+    text-shadow: 1.3px 1.3px 1.3px rgb(0 0 0 / 15%);
+}
+
+    video {
+        height: 65vh;
+        width: 100%;
+        object-fit: fill; // use "cover" to avoid distortion
+        position: absolute;
+    }
+
+    .navbar-box{
+        -webkit-box-shadow: 3px 3px 20px 3px rgba(0,0,0,0.4);
+        -moz-box-shadow: 3px 3px 20px 3px rgba(0,0,0,0.4);
+        box-shadow: 3px 3px 20px 3px rgba(0,0,0,0.4);
+    }
+
+    .img-cont {
+      object-fit: cover;
+      width:15vw;
+      height: 15vw;
+      border: 6px solid #E4E4E4;
+    }

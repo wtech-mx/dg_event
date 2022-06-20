@@ -1,0 +1,204 @@
+@font-face {
+    font-family: "Montserrat-Black";
+    src: url("../fonts/Montserrat/Montserrat-Black.ttf");
+}
+
+@font-face{
+    font-family: "Montserrat-BlackItalic";
+    src: url("../fonts/Montserrat/Montserrat-BlackItalic.ttf");
+}
+
+@font-face{
+    font-family: "Montserrat-Bold";
+    src: url("../fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face{
+    font-family: "Montserrat-BoldItalic";
+    src: url("../fonts/Montserrat/Montserrat-BoldItalic.ttf");
+}
+
+@font-face{
+    font-family: "Montserrat-ExtraBold";
+    src: url("../fonts/Montserrat/Montserrat-ExtraBold.ttf");
+}
+
+@font-face{
+    font-family: "Montserrat-ExtraBoldItalic";
+    src: url("../fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf");
+}
+
+@font-face{
+    font-family: "Montserrat-ExtraLight";
+    src: url("../fonts/Montserrat/Montserrat-ExtraLight.ttf");
+}
+
+@font-face{
+    font-family: "Montserrat-ExtraLightItalic";
+    src: url("../fonts/Montserrat/Montserrat-ExtraLightItalic.ttf");
+}
+
+@font-face{
+    font-family: "Montserrat-Italic";
+    src: url("../fonts/Montserrat/Montserrat-Italic.ttf");
+}
+
+@font-face{
+    font-family: "Montserrat-Light";
+    src: url("../fonts/Montserrat/Montserrat-Light.ttf");
+}
+
+@font-face{
+    font-family: "Montserrat-LightItalic";
+    src: url("../fonts/Montserrat/Montserrat-LightItalic.ttf");
+}
+
+@font-face{
+    font-family: "Montserrat-Medium";
+    src: url("../fonts/Montserrat/Montserrat-Medium.ttf");
+}
+
+@font-face{
+    font-family: "Montserrat-MediumItalic";
+    src: url("../fonts/Montserrat/Montserrat-MediumItalic.ttf");
+}
+
+@font-face{
+    font-family: "Montserrat-Regular";
+    src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face{
+    font-family: "Montserrat-SemiBold";
+    src: url("../fonts/Montserrat/Montserrat-SemiBold.ttf");
+}
+
+@font-face{
+    font-family: "Montserrat-SemiBoldItalic";
+    src: url("../fonts/Montserrat/Montserrat-SemiBoldItalic.ttf");
+}
+
+@font-face{
+    font-family: "Montserrat-Thin";
+    src: url("../fonts/Montserrat/Montserrat-Thin.ttf");
+}
+
+@font-face{
+    font-family: "Montserrat-ThinItalic";
+    src: url("../fonts/Montserrat/Montserrat-ThinItalic.ttf");
+}
+
+@font-face{
+    font-family: "NewYork";
+    src: url("../fonts/Newyork/NewYork.otf");
+}
+
+
+.montserrat-black{
+    font-family: "Montserrat-Black";
+}
+.montserrat-blackitalic{
+    font-family: "Montserrat-BlackItalic";
+}
+.Montserrat-Bold{
+    font-family: "Montserrat-Bold";
+}
+.montserrat-black{
+    font-family: "Montserrat-Black";
+}
+.Montserrat-ExtraBold{
+    font-family: "Montserrat-ExtraBold";
+}
+
+.Montserrat-BoldItalic{
+    font-family: "Montserrat-BoldItalic";
+}
+
+.Montserrat-ExtraBoldItalic{
+    font-family: "Montserrat-ExtraBoldItalic";
+}
+
+.Montserrat-ExtraLight{
+    font-family: "Montserrat-ExtraLight";
+}
+
+.Montserrat-ExtraLightItalic{
+    font-family: "Montserrat-ExtraLightItalic";
+}
+.Montserrat-Italic{
+    font-family: "Montserrat-Italic";
+}
+
+.Montserrat-Light{
+    font-family: "Montserrat-Light";
+}
+
+.Montserrat-LightItalic{
+    font-family: "Montserrat-LightItalic";
+}
+
+.Montserrat-Medium{
+    font-family: "Montserrat-Medium";
+}
+
+.Montserrat-MediumItalic{
+    font-family: "Montserrat-MediumItalic";
+}
+
+.Montserrat-Regular{
+    font-family: "Montserrat-Regular";
+}
+
+.Montserrat-SemiBold{
+    font-family: "Montserrat-SemiBold";
+}
+
+.Montserrat-SemiBoldItalic{
+    font-family: "Montserrat-SemiBoldItalic";
+}
+
+.Montserrat-Thin{
+    font-family: "Montserrat-Thin";
+}
+
+.Montserrat-ThinItalic{
+    font-family: "Montserrat-ThinItalic";
+}
+
+.NewYork{
+    font-family: "NewYork";
+}
+
+.tittle_menu{
+    font-family: "Montserrat-SemiBold";
+    letter-spacing: 5px;
+    font-size: 11px;
+    text-shadow: 1.3px 1.3px 1.3px rgb(0 0 0 / 15%);
+}
+
+.text-paraf{
+   font-family: "Montserrat-Light";
+    letter-spacing: 3px;
+    font-size: 11px;
+    text-shadow: 1.3px 1.3px 1.3px rgb(0 0 0 / 5%);
+    color: #000000;
+}
+
+.tittle_newyork{
+    font-family: "NewYork";
+    color: var( --e-global-color-127a5e8 );
+    font-weight: 100;
+    letter-spacing: 7px;
+    text-shadow: 2px 1px 2px rgb(0 0 0 / 18%);
+     font-size: 25px;
+}
+
+
+.tittle_thin{
+    font-family: "Montserrat-Thin";
+    color: var( --e-global-color-127a5e8 );
+    font-weight: 600;
+    letter-spacing: 7px;
+    text-shadow: 2px 1px 2px rgb(0 0 0 / 18%);
+    font-size: 25px;
+}
