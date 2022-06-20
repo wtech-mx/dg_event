@@ -248,3 +248,33 @@
     font-size: 13px;
     font-weight: bold;
 }
+
+/* Modo Dark */
+
+.tittle_menu_dark{
+    font-family: "Montserrat-Light";
+    letter-spacing: 5px;
+    font-size: 11px;
+    color: #E4E4E4;
+    text-shadow: 1.3px 1.3px 1.3px rgb(0 0 0 / 15%);
+}
+
+.tittle_menu_dark:hover{
+    font-weight: bold;
+    color: #E4E4E4;
+
+}
+
+.tittle_menu2_dark{
+    font-family: "Montserrat-SemiBold";
+    letter-spacing: 5px;
+    font-size: 10px;
+    color: #E4E4E4;
+    text-shadow: 1.3px 1.3px 1.3px rgb(0 0 0 / 13%);
+}
+
+.tittle_menu2_dark:hover{
+    font-family: "Montserrat-Bold";
+    font-weight: bold;
+    color: #E4E4E4;
+}
