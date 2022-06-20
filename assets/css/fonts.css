@@ -181,10 +181,17 @@
 }
 
 .tittle_menu{
-    font-family: "Montserrat-SemiBold";
+    font-family: "Montserrat-Light";
     letter-spacing: 5px;
     font-size: 11px;
+    color: #2F2F34;
     text-shadow: 1.3px 1.3px 1.3px rgb(0 0 0 / 15%);
+}
+
+.tittle_menu:hover{
+    font-weight: bold;
+    color: #000000;
+
 }
 
 .tittle_menu2{
@@ -192,6 +199,12 @@
     letter-spacing: 5px;
     font-size: 10px;
     text-shadow: 1.3px 1.3px 1.3px rgb(0 0 0 / 13%);
+}
+
+.tittle_menu2:hover{
+    font-family: "Montserrat-Bold";
+    font-weight: bold;
+    color: #000000;
 }
 
 .text-paraf{
