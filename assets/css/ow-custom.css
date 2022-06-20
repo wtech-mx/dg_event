@@ -4,9 +4,9 @@
     border-radius: 0px;
     text-align: center;
     border: 1px solid #ececec;
--webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.28);
--moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.28);
-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.28);
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.28);
+    -moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.28);
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.28);
 }
 
 .carousel-wrapper {
@@ -36,6 +36,13 @@ box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.28);
     max-width:600px;
     margin: 0 auto 17px;
     border-radius: 6px;
+}
+
+.card_image-cel{
+    border: 1px solid #ececec;
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.28);
+    -moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.28);
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.28);
 }
 
 /*----------*/
