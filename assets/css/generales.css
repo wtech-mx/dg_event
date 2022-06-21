@@ -147,6 +147,308 @@
       text-shadow: 1.3px 1.3px 1.3px rgba(0, 0, 0, 0.15);
     }
 
+    .content3-dark{
+        position: relative;
+        top: -100px;
+        overflow: hidden
+    }
+
+    .content3-dark .content-overlay3-dark{
+        background: rgba(65,66,73,0.7);
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        -webkit-transition: all 0.4s ease-in-out 0s;
+        -moz-transition: all 0.4s ease-in-out 0s;
+        transition: all 0.4s ease-in-out 0s
+    }
+
+    .content-details3-dark{
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        opacity: 0;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        -moz-transition: all 0.3s ease-in-out 0s;
+        transition: all 0.3s ease-in-out 0s;
+    }
+
+    .content-details3-dark h3{
+        font-family: "Montserrat-Medium";
+        color: #FFF;
+        font-size: 25px;
+        font-weight: 600;
+        letter-spacing: 4px;
+        text-align: center;
+        text-shadow: 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.288); 
+    }
+
+    .content-image3-dark{
+        width: 100%;
+        object-fit: cover;
+        border: 3px solid #E4E4E4;
+        max-width: 360px;
+    }
+
+    .content3-dark:hover .content-details3-dark {
+        top: 50%;
+        left: 50%;
+        opacity: 1;
+    }
+
+    .content3-dark:hover .content-overlay3-dark{
+        opacity: 1
+    }
+
+    @media only screen and (min-width: 1230px) {
+        .content3-dark .content-overlay3-dark{
+            left: 6px;
+            height: 100%;
+            width: 98%;
+        }
+    }
+
+    @media only screen and (min-width: 1240px) {
+        .content3-dark .content-overlay3-dark {
+            left: 5px;
+            height: 100%;
+            width: 99%;
+        }
+    }
+
+    @media only screen and (min-width: 1280px) {
+        .content3-dark .content-overlay3-dark{
+            left: 16px;
+            height: 100%;
+            width: 92%;
+        }
+    }
+
+    @media only screen and (min-width: 1410px) {
+        .content3-dark .content-overlay3-dark{
+            left: 25px;
+            height: 100%;
+            width: 88%;
+        }
+    }
+
+    @media only screen and (min-width: 1470px) {
+        .content3-dark .content-overlay3-dark{
+            left: 35px;
+            height: 100%;
+            width: 84%;
+        }
+    }
+
+    @media only screen and (min-width: 1480px) {
+        .content3-dark .content-overlay3-dark{
+            left: 37px;
+            height: 100%;
+            width: 83%;
+        }
+    }
+
+    @media only screen and (min-width: 1490px) {
+        .content3-dark .content-overlay3-dark{
+            left: 39px;
+            height: 100%;
+            width: 82%;
+        }
+    }
+
+    @media only screen and (min-width: 1500px) {
+        .content3-dark .content-overlay3-dark{
+            left: 41px;
+            height: 100%;
+            width: 81%;
+        }
+    }
+
+    @media only screen and (min-width: 1510px) {
+        .content3-dark .content-overlay3-dark{
+            left: 43px;
+            height: 100%;
+            width: 80%;
+        }
+    }
+
+    @media only screen and (min-width: 1520px) {
+        .content3-dark .content-overlay3-dark{
+            left: 45px;
+            height: 100%;
+            width: 79%;
+        }
+    }
+
+    @media only screen and (min-width: 1540px) {
+        .content3-dark .content-overlay3-dark{
+            left: 47px;
+            height: 100%;
+            width: 78%;
+        }
+    }
+
+    @media only screen and (min-width: 1560px) {
+        .content3-dark .content-overlay3-dark{
+            left: 49px;
+            height: 100%;
+            width: 77%;
+        }
+    }
+
+    @media only screen and (min-width: 1580px) {
+        .content3-dark .content-overlay3-dark{
+            left: 51px;
+            height: 100%;
+            width: 76%;
+        }
+    }
+
+    @media only screen and (min-width: 1600px) {
+        .content3-dark .content-overlay3-dark{
+            left: 53px;
+            height: 100%;
+            width: 76%;
+        }
+    }
+
+    @media only screen and (min-width: 1620px) {
+        .content3-dark .content-overlay3-dark{
+            left: 55px;
+            height: 100%;
+            width: 76%;
+        }
+    }
+
+    @media only screen and (min-width: 1640px) {
+        .content3-dark .content-overlay3-dark{
+            left: 65px;
+            height: 100%;
+            width: 74%;
+        }
+    }
+
+    @media only screen and (min-width: 1660px) {
+        .content3-dark .content-overlay3-dark{
+            left: 70px;
+            height: 100%;
+            width: 71%;
+        }
+    }
+
+    @media only screen and (min-width: 1680px) {
+        .content3-dark .content-overlay3-dark{
+            left: 75px;
+            height: 100%;
+            width: 70%;
+        }
+    }
+
+    @media only screen and (min-width: 1710px) {
+        .content3-dark .content-overlay3-dark{
+            left: 83px;
+            height: 100%;
+            width: 69%;
+        }
+    }
+
+    @media only screen and (min-width: 1780px) {
+        .content3-dark .content-overlay3-dark{
+            left: 88px;
+            height: 100%;
+            width: 66%;
+        }
+    }
+
+    @media only screen and (min-width: 1810px) {
+        .content3-dark .content-overlay3-dark{
+            left: 93px;
+            height: 100%;
+            width: 65%;
+        }
+    }
+
+    @media only screen and (min-width: 1840px) {
+        .content3-dark .content-overlay3-dark{
+            left: 100px;
+            height: 100%;
+            width: 64%;
+        }
+    }
+
+    @media only screen and (min-width: 1880px) {
+        .content3-dark .content-overlay3-dark{
+            left: 110px;
+            height: 100%;
+            width: 63%;
+        }
+    }
+
+    @media only screen and (min-width: 1910px) {
+        .content3-dark .content-overlay3-dark{
+            left: 117px;
+            height: 100%;
+            width: 61%;
+        }
+    }
+
+    @media only screen and (min-width: 1930px) {
+        .content3-dark .content-overlay3-dark{
+            left: 120px;
+            height: 100%;
+            width: 60%;
+        }
+    }
+
+    @media only screen and (min-width: 1990px) {
+        .content3-dark .content-overlay3-dark{
+            left: 125px;
+            height: 100%;
+            width: 58%;
+        }
+    }
+
+    @media only screen and (min-width: 2020px) {
+        .content3-dark .content-overlay3-dark{
+            left: 130px;
+            height: 100%;
+            width: 58%;
+        }
+    }
+
+    @media only screen and (min-width: 2050px) {
+        .content3-dark .content-overlay3-dark{
+            left: 135px;
+            height: 100%;
+            width: 57%;
+        }
+    }
+
+    @media only screen and (min-width: 2080px) {
+        .content3-dark .content-overlay3-dark{
+            left: 140px;
+            height: 100%;
+            width: 56%;
+        }
+    }
+
+    @media only screen and (min-width: 2130px) {
+        .content3-dark .content-overlay3-dark{
+            left: 150px;
+            height: 100%;
+            width: 54%;
+        }
+    }
 
      /*----------Services hover*/
 
