@@ -98,6 +98,7 @@
     src: url("../fonts/Heebo/Heebo-Light.ttf");
 }
 
+
 .montserrat-black{
     font-family: "Montserrat-Black";
 }
@@ -229,7 +230,7 @@
     font-weight: 100;
     letter-spacing: 7px;
     text-shadow: 2px 1px 2px rgb(0 0 0 / 18%);
-    font-size: 25px;
+     font-size: 25px;
 }
 
 
@@ -244,8 +245,7 @@
 
 .arrowfont{
     color: #ffffff;
-    font-size: 13px;
-    font-weight: bold;
+    font-size: 10px;
 }
 
 /* Modo Dark */
@@ -265,7 +265,7 @@
 }
 
 .tittle_menu2_dark{
-    font-family: "Montserrat-SemiBold";
+    font-family: "Montserrat-Light";
     letter-spacing: 5px;
     font-size: 10px;
     color: #E4E4E4;
@@ -273,7 +273,7 @@
 }
 
 .tittle_menu2_dark:hover{
-    font-family: "Montserrat-Bold";
+    font-family: "Montserrat-Light";
     font-weight: bold;
     color: #E4E4E4;
 }
