@@ -224,6 +224,11 @@
     text-decoration: none;
 }
 
+.text-play:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
 .tittle_newyork{
     font-family: "NewYork";
     color: var( --e-global-color-127a5e8 );
