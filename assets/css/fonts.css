@@ -248,6 +248,12 @@
     font-size: 10px;
 }
 
+.slect_custom{
+    border: 1px solid #E4E4E4!important;
+    background-color: transparent;
+}
+
+
 /* Modo Dark */
 
 .tittle_menu_dark{
