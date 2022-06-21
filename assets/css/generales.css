@@ -166,8 +166,8 @@
     .content .content-overlay{
         background: rgba(228,228,228,0.7);
         position: absolute;
-        height: 99%;
-        width: 100%;
+        width: 12vw;
+        height: 12vw;
         left: 0;
         top: 0;
         bottom: 0;
@@ -202,7 +202,8 @@
     }
 
     .content-image{
-        width: 100%;
+        width: 12vw;
+        height: 12vw;
         object-fit: cover;
         border: 6px solid #E4E4E4;
     }
