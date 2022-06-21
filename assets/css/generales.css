@@ -1,3 +1,8 @@
+@font-face{
+    font-family: "Montserrat-Medium";
+    src: url("../fonts/Montserrat/Montserrat-Medium.ttf");
+}
+
 .dropdown-toggle::after{
     display: none;
     font-family: "Montserrat-SemiBold";
@@ -26,9 +31,89 @@
       border: 6px solid #E4E4E4;
     }
 
+    .container_imagen{
+        position: relative;
+
+    }
+
+    .overlay {
+      position: absolute;
+      bottom: 0;
+      background: rgba(228, 228, 228, 0.6); /* Black see-through */
+      color: #2F2F34;
+      width:12vw;
+      height: 12vw;
+      font-family: "Montserrat-Medium";
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 5px;
+      margin-top: 10px;
+      transition: .5s ease;
+      opacity:0;
+      text-align: center;
+    }
+
+    .overlay2 {
+      position: absolute;
+      bottom: 0;
+      background: rgba(228, 228, 228, 0.6); /* Black see-through */
+      color: #2F2F34;
+      width:12vw;
+      height: 12vw;
+      font-family: "Montserrat-Medium";
+      font-size: 8px;
+      font-weight: 600;
+      letter-spacing: 5px;
+      margin-top: 10px;
+      transition: .5s ease;
+      opacity:0;
+      text-align: center;
+    }
+
+    .overlay_cel{
+      position: absolute;
+      bottom: 0;
+      background: rgba(228, 228, 228, 0.6); /* Black see-throughcard_image-cel */
+      color: #2F2F34;
+      width:100%;
+      height: auto;
+      font-family: "Montserrat-Medium";
+      font-size: 8px;
+      font-weight: 600;
+      letter-spacing: 5px;
+      margin-top: 10px;
+      transition: .5s ease;
+      opacity:0;
+      text-align: center;
+    }
+
+    .span_overley{
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 5px;
+    }
+
+    .container_imagen:hover .overlay {
+       opacity: 1;
+
+    }
+
+    .container_imagen:hover .overlay2 {
+       opacity: 1;
+
+    }
+
     .img-cont2 {
         width: 100px;
 
+    }
+
+    .brand_logo:hover{
+        opacity: 1;
+    }
+
+    .brand_logo{
+        opacity: 0.5;
     }
 
     .video_style{
