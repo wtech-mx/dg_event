@@ -41,33 +41,47 @@
       bottom: 0;
       background: rgba(228, 228, 228, 0.6); /* Black see-through */
       color: #2F2F34;
-      width:12vw;
-      height: 12vw;
+      width: 100%;
+      padding: 78px 0 78px 0;
       font-family: "Montserrat-Medium";
       font-size: 16px;
       font-weight: 600;
       letter-spacing: 5px;
-      margin-top: 10px;
-      transition: .5s ease;
       opacity:0;
       text-align: center;
+      text-shadow: 1.3px 1.3px 1.3px rgba(255, 255, 255, 0.15);
     }
+
+    .overlay-sin {
+        position: absolute;
+        bottom: 0;
+        background: rgba(228, 228, 228, 0.6); /* Black see-through */
+        color: #2F2F34;
+        width: 100%;
+        padding: 90px 0 90px 0;
+        font-family: "Montserrat-Medium";
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 5px;
+        opacity:0;
+        text-align: center;
+        text-shadow: 1.3px 1.3px 1.3px rgba(255, 255, 255, 0.15);
+      }
 
     .overlay2 {
       position: absolute;
       bottom: 0;
       background: rgba(228, 228, 228, 0.6); /* Black see-through */
       color: #2F2F34;
-      width:12vw;
-      height: 12vw;
+      width: 100%;
+      padding: 97px 0 97px 0;
       font-family: "Montserrat-Medium";
       font-size: 8px;
       font-weight: 600;
       letter-spacing: 5px;
-      margin-top: 10px;
-      transition: .5s ease;
       opacity:0;
       text-align: center;
+      text-shadow: 1.3px 1.3px 1.3px rgba(255, 255, 255, 0.15);
     }
 
     .overlay_cel{
@@ -97,6 +111,10 @@
        opacity: 1;
 
     }
+
+    .container_imagen:hover .overlay-sin {
+        opacity: 1;
+     }
 
     .container_imagen:hover .overlay2 {
        opacity: 1;
@@ -153,3 +171,63 @@
         height: 12vw;
         border: 6px solid #2D2E33;
       }
+
+      .overlay-dark {
+        position: absolute;
+        bottom: 0;
+        background: rgba(45, 46, 51, 0.603); /* Black see-through */
+        color: #FFFF;
+        width:12vw;
+        height: 12vw;
+        font-family: "Montserrat-Medium";
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 5px;
+        opacity:0;
+        text-align: center;
+        text-shadow: 1.3px 1.3px 1.3px rgb(0 0 0 / 15%);
+      }
+
+      .overlay-dark-sin {
+        position: absolute;
+        bottom: 0;
+        background: rgba(45, 46, 51, 0.603); /* Black see-through */
+        color: #FFFF;
+        width:12vw;
+        height: 12vw;
+        font-family: "Montserrat-Medium";
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 5px;
+        opacity:0;
+        text-align: center;
+        text-shadow: 1.3px 1.3px 1.3px rgb(0 0 0 / 15%);
+      }
+  
+      .overlay2-dark {
+        position: absolute;
+        bottom: 0;
+        background: rgba(45, 46, 51, 0.603); /* Black see-through */
+        color: #FFFF;
+        width:12vw;
+        height: 12vw;
+        font-family: "Montserrat-Medium";
+        font-size: 8px;
+        font-weight: 600;
+        letter-spacing: 5px;
+        opacity:0;
+        text-align: center;
+        text-shadow: 1.3px 1.3px 1.3px rgb(0 0 0 / 15%);
+      }
+
+      .container_imagen:hover .overlay-dark {
+        opacity: 1;
+     }
+ 
+     .container_imagen:hover .overlay2-dark {
+        opacity: 1;
+     }
+
+     .container_imagen:hover .overlay-dark-sin {
+        opacity: 1;
+     }
