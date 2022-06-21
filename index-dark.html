@@ -101,7 +101,7 @@
 
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle tittle_menu2_dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        EN <i class="bi bi-chevron-down arrowfont" style="color: #000;"></i>
+                        EN <i class="bi bi-chevron-down arrowfont" style="color: #E4E4E4;"></i>
                       </a>
                       <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item tittle_menu2_dark" href="#">EN</a></li>
@@ -110,7 +110,7 @@
                     </li>
 
                     <div class="form-check form-switch" style="padding-left: 3em;">
-                      <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                      <input class="form-check-input" type="checkbox" role="switch" checked="checked" id="flexSwitchCheckDefault" onclick="RedirectDark()">
                     </div>
 
                   </div>
@@ -128,6 +128,14 @@
 
     <section class="video">
       <video class="video_style_dark" src="./assets/video/video1.mp4" autoplay muted  loop ></video>
+      <p class="text-center">
+        <!-- <a class="text-play" type="button" onclick="playVid()">PLAY |</a>-->
+            <a class="text-play" type="button" onclick="pauseplayVid()">PAUSE |</a>
+            <a class="text-play" type="button" onclick="enableMute()">AUDIO</a> <br>
+            <a class="text-play" type="button" >
+                    <i class="bi bi-chevron-down" style="font-size: 40px;opacity: 1;color: #a5a5a5"></i>
+            </a>
+        </p>
     </section>
 
     <!--        _____________________-->
@@ -155,12 +163,12 @@
     <!--        Gallery-->
     <!--        _____________________-->
 
-   <section class="testimonials py-5 text-center container-fluid bg-secundario">
-      <div class="row py-lg-5">
+   <section class="testimonials text-center container-fluid bg-secundario-dark">
+      <div class="row">
         <div class="col-12">
-          <h1 class="tittle_newyork">GALLERY</h1>
+          <h1 class="tittle_newyork_dark mt-5 mb-3">GALLERY</h1>
 
-            <div class="carousel-wrap">
+            <div class="carousel-wrap p-2s">
                 <div class="owl-carousel owl-theme" id="customers-testimonials">
 
                     <div class="item">
@@ -199,18 +207,18 @@
 
           <div class="row">
               <div class="d-flex justify-content-between">
-                  <img class="img-cont" src="./assets/img/services/4.jpg">
-                  <img class="img-cont" src="./assets/img/services/3.jpg">
-                  <img class="img-cont" src="./assets/img/services/5.jpg">
-                  <img class="img-cont" src="./assets/img/services/7.jpg">
+                  <img class="img-cont-dark" src="./assets/img/services/4.jpg">
+                  <img class="img-cont-dark" src="./assets/img/services/3.jpg">
+                  <img class="img-cont-dark" src="./assets/img/services/5.jpg">
+                  <img class="img-cont-dark" src="./assets/img/services/7.jpg">
               </div>
           </div>
 
            <div class="row mt-5">
                <div class="d-flex justify-content-evenly">
-                  <img class="img-cont" src="./assets/img/services/1.jpg">
-                  <img class="img-cont" src="./assets/img/services/6.jpg">
-                  <img class="img-cont" src="./assets/img/services/2.jpg">
+                  <img class="img-cont-dark" src="./assets/img/services/1.jpg">
+                  <img class="img-cont-dark" src="./assets/img/services/6.jpg">
+                  <img class="img-cont-dark" src="./assets/img/services/2.jpg">
               </div>
 
           </div>
@@ -275,56 +283,56 @@
 <!--      </div>-->
 <!--    </section>-->
 
-   <section class=" py-5 text-center container-fluid">
-      <div class="row py-lg-5">
-        <div class="col-12">
-          <h1 class="tittle_newyork ">LIFE IS WORTH</h1>
-          <h1 class="tittle_thin ">CELEBRATING</h1>
-          <hr class="mt-2 text-center" style="width:200px; margin: auto;margin-bottom: 7rem!important;">
-            <div class="row p-5 bg-secundario p" style="height: 74vh;">
+<section class=" py-5 text-center container-fluid">
+    <div class="row py-lg-5">
+    <div class="col-12">
+        <h1 class="tittle_newyork ">LIFE IS WORTH</h1>
+        <h1 class="tittle_thin ">CELEBRATING</h1>
+        <hr class="mt-2 text-center" style="width:200px; margin: auto;margin-bottom: 7rem!important;">
+        <div class="row p-5 bg-secundario-dark p" style="height: 74vh;">
 
-                <div class="col-md-4 ">
-                    <div class="lc-block  position-relative" style="">
-                        <img class="img-fluid card_image-cel position-relative " src="./assets/img/celebrating/1.jpg" loading="lazy" style="top: -100px">
-                    </div>
-                    <div class="lc-block">
-                        <div editable="rich">
-                        </div>
+            <div class="col-md-4 ">
+                <div class="lc-block  position-relative" style="">
+                    <img class="img-fluid card_image-cel position-relative " src="./assets/img/celebrating/1.jpg" loading="lazy" style="top: -100px">
+                </div>
+                <div class="lc-block">
+                    <div editable="rich">
                     </div>
                 </div>
+            </div>
 
-                <div class="col-md-4 ">
-                    <div class="lc-block">
-                        <div editable="rich">
-                            <p style="opacity: 0">
-                                auris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.&nbsp;
-                                auris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.&nbsp;
-                                auris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.&nbsp;
-                            </p>
-                        </div>
-                    </div>
-                    <div class="lc-block position-relative">
-                        <img class="img-fluid card_image-cel position-relative" src="./assets/img/celebrating/2.jpg" loading="lazy" style="top: -100px">
+            <div class="col-md-4 ">
+                <div class="lc-block">
+                    <div editable="rich">
+                        <p style="opacity: 0">
+                            auris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.&nbsp;
+                            auris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.&nbsp;
+                            auris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.&nbsp;
+                        </p>
                     </div>
                 </div>
+                <div class="lc-block position-relative">
+                    <img class="img-fluid card_image-cel position-relative" src="./assets/img/celebrating/2.jpg" loading="lazy" style="top: -100px">
+                </div>
+            </div>
 
-                <div class="col-md-4 ">
-                    <div class="lc-block position-relative">
-                        <img class="img-fluid card_image-cel position-relative" src="./assets/img/celebrating/3.jpg" loading="lazy" style="top: -100px">
-                    </div>
-                    <div class="lc-block">
-                        <div editable="rich">
-                            <p>
-                            </p>
-                        </div>
+            <div class="col-md-4 ">
+                <div class="lc-block position-relative">
+                    <img class="img-fluid card_image-cel position-relative" src="./assets/img/celebrating/3.jpg" loading="lazy" style="top: -100px">
+                </div>
+                <div class="lc-block">
+                    <div editable="rich">
+                        <p>
+                        </p>
                     </div>
                 </div>
-
             </div>
 
         </div>
-      </div>
-    </section>
+
+    </div>
+    </div>
+</section>
 
     <!--        _____________________-->
     <!--        press-->
@@ -376,17 +384,17 @@
     <!--        _____________________-->
 
 
-      <section class="testimonials py-4 text-center container-fluid bg-secundario">
+      <section class="testimonials py-4 text-center container-fluid bg-secundario-dark">
           <div class="row ">
             <div class="col-12">
               <p class="text-center">
-                <i class="bi bi-whatsapp" style="color: #63686E; font-size: 25px !important; margin-right: 5px;"></i>
-                <i class="bi bi-envelope" style="color: #63686E; font-size: 28px !important; margin-right: 45px;"></i>
-                <i class="bi bi-instagram" style="color: #63686E; font-size: 25px !important;  margin-right: 5px;"></i>
-                <i class="bi bi-tiktok" style="color: #63686E; font-size: 25px !important;  margin-right: 5px;"></i>
+                <i class="bi bi-whatsapp" style="color: #FFFFFF; font-size: 25px !important; margin-right: 5px;"></i>
+                <i class="bi bi-envelope" style="color: #FFFFFF; font-size: 28px !important; margin-right: 45px;"></i>
+                <i class="bi bi-instagram" style="color: #FFFFFF; font-size: 25px !important;  margin-right: 5px;"></i>
+                <i class="bi bi-tiktok" style="color: #FFFFFF; font-size: 25px !important;  margin-right: 5px;"></i>
               </p>
 
-              <a class="text-center tittle_menu" style="font-size: 14px !important; color: #63686E; text-decoration: none;">
+              <a class="text-center tittle_menu" style="font-size: 14px !important; color: #FFFFFF; text-decoration: none;">
                 DG Event Planning 2022©
               </a>
 
@@ -414,6 +422,13 @@
     <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script>
     <script  src="./assets/js/ow-custom.js"></script>
+    
+    <script>
+        function RedirectDark() {
+            window.location.href = "./index.html";
+        }
+    </script>
 
   </body>
 </html>
+

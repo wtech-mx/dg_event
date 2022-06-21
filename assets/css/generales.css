@@ -61,3 +61,10 @@
         color: #E4E4E4;
         text-shadow: 1.3px 1.3px 1.3px rgb(0 0 0 / 15%);
     }
+
+    .img-cont-dark {
+        object-fit: cover;
+        width:12vw;
+        height: 12vw;
+        border: 6px solid #2D2E33;
+      }
