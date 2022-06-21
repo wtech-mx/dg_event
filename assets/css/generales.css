@@ -322,6 +322,118 @@
             }
         }
 
+        @media only screen and (min-width: 1660px) {
+            .content3 .content-overlay3{
+                left: 70px;
+                height: 100%;
+                width: 71%;
+            }
+        }
+
+        @media only screen and (min-width: 1680px) {
+            .content3 .content-overlay3{
+                left: 75px;
+                height: 100%;
+                width: 70%;
+            }
+        }
+
+        @media only screen and (min-width: 1710px) {
+            .content3 .content-overlay3{
+                left: 83px;
+                height: 100%;
+                width: 69%;
+            }
+        }
+
+        @media only screen and (min-width: 1780px) {
+            .content3 .content-overlay3{
+                left: 88px;
+                height: 100%;
+                width: 66%;
+            }
+        }
+
+        @media only screen and (min-width: 1810px) {
+            .content3 .content-overlay3{
+                left: 93px;
+                height: 100%;
+                width: 65%;
+            }
+        }
+
+        @media only screen and (min-width: 1840px) {
+            .content3 .content-overlay3{
+                left: 100px;
+                height: 100%;
+                width: 64%;
+            }
+        }
+
+        @media only screen and (min-width: 1880px) {
+            .content3 .content-overlay3{
+                left: 110px;
+                height: 100%;
+                width: 63%;
+            }
+        }
+
+        @media only screen and (min-width: 1910px) {
+            .content3 .content-overlay3{
+                left: 117px;
+                height: 100%;
+                width: 61%;
+            }
+        }
+
+        @media only screen and (min-width: 1930px) {
+            .content3 .content-overlay3{
+                left: 120px;
+                height: 100%;
+                width: 60%;
+            }
+        }
+
+        @media only screen and (min-width: 1990px) {
+            .content3 .content-overlay3{
+                left: 125px;
+                height: 100%;
+                width: 58%;
+            }
+        }
+
+        @media only screen and (min-width: 2020px) {
+            .content3 .content-overlay3{
+                left: 130px;
+                height: 100%;
+                width: 58%;
+            }
+        }
+
+        @media only screen and (min-width: 2050px) {
+            .content3 .content-overlay3{
+                left: 135px;
+                height: 100%;
+                width: 57%;
+            }
+        }
+
+        @media only screen and (min-width: 2080px) {
+            .content3 .content-overlay3{
+                left: 140px;
+                height: 100%;
+                width: 56%;
+            }
+        }
+
+        @media only screen and (min-width: 2130px) {
+            .content3 .content-overlay3{
+                left: 150px;
+                height: 100%;
+                width: 54%;
+            }
+        }
+
     .content:hover .content-overlay{
         opacity: 1
     }
