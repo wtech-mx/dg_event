@@ -13,6 +13,7 @@
                 vid.play();
             } else {
                 vid.pause();
+
             }
     }
 
