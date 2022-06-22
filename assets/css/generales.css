@@ -130,21 +130,21 @@
     .content-details-dark h3{
       font-family: "Montserrat-Medium";
       color: #FFFF;
-      font-size: 17px;
-      font-weight: 600;
-      letter-spacing: 5px;
+      font-size: 25px;
+      font-weight: 900;
+      letter-spacing: 6px;
       text-align: center;
-      text-shadow: 1.3px 1.3px 1.3px rgba(0, 0, 0, 0.15);
+      text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.596);
     }
 
     .content-details2-dark h3{
       font-family: "Montserrat-Medium";
       color: #FFFF;
-      font-size: 10px;
-      font-weight: 600;
-      letter-spacing: 3px;
+      font-size: 13px;
+      font-weight: 900;
+      letter-spacing: 5px;
       text-align: center;
-      text-shadow: 1.3px 1.3px 1.3px rgba(0, 0, 0, 0.15);
+      text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.596);
     }
 
     .content3-dark{
@@ -874,21 +874,21 @@
     .content-details h3{
         font-family: "Montserrat-Medium";
         color: #2F2F34;
-        font-size: 17px;
-        font-weight: 600;
-        letter-spacing: 5px;
+        font-size: 25px;
+        font-weight: 900;
+        letter-spacing: 6px;
         text-align: center;
-        text-shadow: 1.3px 1.3px 1.3px rgba(255, 255, 255, 0.15);
+        text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.596);
     }
 
     .content-details2 h3{
         font-family: "Montserrat-Medium";
         color: #2F2F34;
-        font-size: 10px;
-        font-weight: 600;
-        letter-spacing: 3px;
+        font-size: 13px;
+        font-weight: 900;
+        letter-spacing: 5px;
         text-align: center;
-        text-shadow: 1.3px 1.3px 1.3px rgba(255, 255, 255, 0.15);
+        text-shadow:  5px 5px 5px rgba(255, 255, 255, 0.596);
     }
 
     .content-details3 h3{
