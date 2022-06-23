@@ -1,4 +1,7 @@
-    var vid = document.getElementById("myVideo");
+var vid = document.getElementById("myVideo");
+var cam = document.getElementById("mydiv");
+
+
 
     function playVid() {
       vid.play();
@@ -8,17 +11,21 @@
       vid.pause();
     }
 
+
     function pauseplayVid() {
             if (vid.paused) {
                 vid.play();
                 let pause = document.querySelector(".pause")
-                pause.classList.toggle("sub-sin")
-                pause.classList.remove("sub")
+                // pause.classList.toggle("sub-sin")
+                // pause.classList.remove("sub")
+                 cam.innerHTML = "PLAY";
+
             } else {
                 vid.pause();
                 let pause = document.querySelector(".pause")
-                pause.classList.toggle("sub")
-                pause.classList.remove("sub-sin")
+                // pause.classList.toggle("sub")
+                // pause.classList.remove("sub-sin")
+                cam.innerHTML = "PAUSE";
             }
     }
 
@@ -35,3 +42,5 @@
                 mute.classList.remove("sub")
             }
     }
+
+
