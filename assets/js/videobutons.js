@@ -18,14 +18,14 @@ var cam = document.getElementById("mydiv");
                 let pause = document.querySelector(".pause")
                 // pause.classList.toggle("sub-sin")
                 // pause.classList.remove("sub")
-                 cam.innerHTML = "PLAY";
+                 cam.innerHTML = "PAUSE";
 
             } else {
                 vid.pause();
                 let pause = document.querySelector(".pause")
                 // pause.classList.toggle("sub")
                 // pause.classList.remove("sub-sin")
-                cam.innerHTML = "PAUSE";
+                cam.innerHTML = "PLAY";
             }
     }
 
