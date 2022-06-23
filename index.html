@@ -26,6 +26,10 @@
     <!--        _____________________-->
 
   <style>
+    @font-face{
+        font-family: "Montserrat-Medium";
+        src: url("./assets/fonts/Montserrat/Montserrat-Medium.ttf");
+    }
       .form-switch .form-check-input{
           border:1.6px solid #63686E;
           background-color: #E4E4E4;
@@ -140,11 +144,11 @@
     <!--        _____________________-->
 
     <section class="video">
-      <video class="video_style" id="myVideo" src="./assets/video/video1.mp4" autoplay muted  loop ></video>
+      <video class="video_style" id="myVideo" src="http://wtech.com.mx/bedental_sistema/img/video1.mp4" autoplay muted  loop ></video>
         <p class="text-center">
 <!--            <a class="text-play" type="button" onclick="playVid()">PLAY |</a>-->
-            <a class="text-play pause" type="button" onclick="pauseplayVid()">PAUSE |</a>
-            <a class="text-play mute" type="button" onclick="enableMute()">AUDIO</a> <br>
+            <a class="pause " type="button" onclick="pauseplayVid()" style="font-family: 'Montserrat-Light';letter-spacing: 3px; font-size: 9px; text-shadow: 1.3px 1.3px 1.3px rgb(0 0 0 / 5%); color: #000000; text-decoration: none;">PAUSE |</a>
+            <a class="mute " type="button" onclick="enableMute()" style="font-family: 'Montserrat-Light';letter-spacing: 3px; font-size: 9px; text-shadow: 1.3px 1.3px 1.3px rgb(0 0 0 / 5%); color: #000000; text-decoration: none;">AUDIO</a> <br>
             <a class="text-play" type="button" href="#nav-about">
                  <i class="bi bi-chevron-down" style="font-size: 40px;opacity: 1;color: #a5a5a5"></i>
             </a>
