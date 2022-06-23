@@ -31,8 +31,8 @@
     .brand_logo{
         padding: 20px;
         opacity: 0.5;
--webkit-filter: grayscale(100%);
-filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
     }
 
     .video_style{
@@ -43,6 +43,11 @@ filter: grayscale(100%);
         margin-top: 0px;
         margin-bottom: 0px;
         padding: 0px 0px 0px 0px;
+    }
+
+    .arrow_down{
+        background-image: url("");
+
     }
 
     .sub {

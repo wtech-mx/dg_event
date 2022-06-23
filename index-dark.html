@@ -141,8 +141,8 @@
               <a class="pause "  id="mydiv" type="button" onclick="pauseplayVid()" style="font-family: 'Montserrat-Light';letter-spacing: 3px; font-size: 9px; text-shadow: 1.3px 1.3px 1.3px rgb(0 0 0 / 5%); color: #000000; text-decoration: none;">PAUSE </a>
               <a class="text-play">|</a>
               <a class="mute " type="button" onclick="enableMute()" style="font-family: 'Montserrat-Light';letter-spacing: 3px; font-size: 9px; text-shadow: 1.3px 1.3px 1.3px rgb(0 0 0 / 5%); color: #000000; text-decoration: none;">AUDIO</a> <br>
-              <a class="text-play" type="button" href="#nav-about">
-                    <i class="bi bi-chevron-down" style="font-size: 40px;opacity: 1;color: #a5a5a5"></i>
+              <a class="arrow_down" type="button" href="#nav-about">
+                 <img id="aks" src="assets/img/arrow_ligth.png" style="width:35%;margin-top: 10px"/>
               </a>
           </p>
     </section>
@@ -519,6 +519,16 @@
         function RedirectDark() {
             window.location.href = "./index.html";
         }
+
+        $('#aks').hover(
+            function(){
+              $(this).attr('src','assets/img/arrow_bold.png')
+            },
+            function(){
+              $(this).attr('src','assets/img/arrow_ligth.png')
+            }
+        )
+
     </script>
 
   </body>
