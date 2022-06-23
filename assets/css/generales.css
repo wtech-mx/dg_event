@@ -900,3 +900,13 @@
         text-align: center;
         text-shadow: 1.5px 1.5px 1.5px rgba(255, 255, 255, 0.288); 
     }
+
+    .text-carding{
+        position: relative;
+        top: -70px;
+    }
+
+    .text-carding2{
+        position: relative;
+        top: 10px;
+    }
