@@ -136,14 +136,15 @@
     <!--        _____________________-->
 
     <section class="video">
-      <video class="video_style_dark" id="myVideo" src="http://wtech.com.mx/bedental_sistema/img/video1.mp4" autoplay muted  loop ></video>
-      <p class="text-center">
-        <!-- <a class="text-play" type="button" onclick="playVid()">PLAY |</a>-->
-          <a class="text-play" type="button" onclick="pauseplayVid()">PAUSA |</a>
-          <a class="text-play" type="button" onclick="enableMute()">AUDIO</a> <br>
-          <a class="text-play" type="button" href="#nav-about">
-              <i class="bi bi-chevron-down" style="font-size: 40px;opacity: 1;color: #a5a5a5"></i>
-          </a>
+      <video class="video_style" id="myVideo" src="http://wtech.com.mx/bedental_sistema/img/video1.mp4" autoplay muted  loop ></video>
+        <p class="text-center">
+<!--            <a class="text-play" type="button" onclick="playVid()">PLAY |</a>-->
+            <a class="pause" type="button" onclick="pauseplayVid()" style="font-family: 'Montserrat-Light';letter-spacing: 3px; font-size: 9px; text-shadow: 1.3px 1.3px 1.3px rgb(0 0 0 / 5%); color: #000000; text-decoration: none;">PAUSA </a>
+            <a class="text-play">|</a>
+            <a class="mute" type="button" onclick="enableMute()" style="font-family: 'Montserrat-Light';letter-spacing: 3px; font-size: 9px; text-shadow: 1.3px 1.3px 1.3px rgb(0 0 0 / 5%); color: #000000; text-decoration: none;">AUDIO</a> <br>
+            <a class="text-play" type="button" href="#nav-about">
+                 <i class="bi bi-chevron-down" style="font-size: 40px;opacity: 1;color: #a5a5a5"></i>
+            </a>
         </p>
     </section>
 
@@ -223,7 +224,7 @@
                     <div class="content-overlay-dark"></div>
                     <img class="content-image-dark" src="./assets/img/services/CULINARY.jpg">
                     <div class="content-details-dark fadeIn-bottom">
-                        <h3 class="content-title">CULINARIO</h3>
+                        <h3 class="content-title" style="font-size: 18px!important;">CULINARIO</h3>
                     </div>
                 </div>
 
@@ -231,7 +232,7 @@
                     <div class="content-overlay-dark"></div>
                     <img class="content-image-dark" src="./assets/img/services/FLOWERS AND DECO.jpg">
                     <div class="content-details-dark fadeIn-bottom">
-                        <h3 class="content-title">FLORALES Y <br>DECORACIÓN</h3>
+                        <h3 class="content-title" style="font-size: 18px!important;">FLORALES Y <br>DECORACIÓN</h3>
                     </div>
                 </div>
 
@@ -239,7 +240,7 @@
                     <div class="content-overlay-dark"></div>
                     <img class="content-image-dark" src="./assets/img/services/CANDY TABLE.jpg">
                     <div class="content-details-dark fadeIn-bottom">
-                        <h3 class="content-title">MESAS DE <br> DULCES</h3>
+                        <h3 class="content-title" style="font-size: 18px!important;">MESAS DE <br> DULCES</h3>
                     </div>
                 </div>
 
@@ -247,7 +248,7 @@
                     <div class="content-overlay-dark"></div>
                     <img class="content-image-dark" src="./assets/img/services/PHOTO AND VIDEO.jpg">
                     <div class="content-details-dark fadeIn-bottom">
-                        <h3 class="content-title">FOTO Y <br> VIDEO</h3>
+                        <h3 class="content-title" style="font-size: 18px!important;">FOTO Y <br> VIDEO</h3>
                     </div>
                 </div>
 
@@ -294,72 +295,71 @@
     <div class="col-12">
         <h1 class="tittle_newyork ">LA VIDA VALE</h1>
         <h1 class="tittle_thin ">CELEBRANDO</h1>
-        <hr class="mt-2 text-center" style="width:200px; margin: auto;margin-bottom: 7rem!important;">
-        <div class="row p-5 bg-secundario-dark p" style="height: 74vh;">
+        <hr class="mt-2 text-center" style="width:200px; margin: auto;margin-bottom: 13rem!important;">
+        <div class="row p-5 bg-secundario-dark p" style="height: 82vh;">
             
           <div class="col-md-4 " id="nav-weddings">
-              <div class="content3-dark">
-                  <div class="content-overlay3-dark"></div>
-                  <img class="content-image3-dark" src="./assets/img/celebrating/1.jpg " >
-                  <div class="content-details3-dark fadeIn-bottom3">
-                    <h3 class="content-title3">BODAS</h3><br><br>
-                    <p style="color: #FFF; font-family: Montserrat-Medium; text-shadow: 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.288);">
-                      Brindamos el más alto nivel de <br> coordinación de bodas de servicio completo y <br>planificación. Como boda profesional <br> planificadores, estamos comprometidos 
-                      a hacer <br> su evento de boda sin estrés y <br> disfrutable y la ejecución impecable. <br><br>
-                      Si has imaginado tu sueño <br> deshierbe desde el momento en que ibas a <br> comenzar en la planificación de su boda, nosotros <br> trabajará con usted en cada 
-                      paso del camino. <br> Cada boda y evento que planeamos es <br>exclusivos de nuestros clientes y sus particularidades <br>gustos y aversiones y gusto específico y <br>estilo.
-                    </p>
-                  </div>
-                  <h2 class="text-carding tittle_thin mt-4">BODAS</h2>
-              </div>
-          </div>
-
-          <div class="col-md-4 " id="nav-celebrations">
-              <div class="lc-block">
-                  <div editable="rich">
-                      <p style="opacity: 0">
-                          auris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.&nbsp;
-                          auris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.&nbsp;
-                          auris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.&nbsp;
-                      </p>
-                  </div>
-              </div>
-                <div class="content3-dark">
-                    <h2 class="text-carding mb-4 tittle_thin">CELEBRACIONES</h2>
-                    <div class="content-overlay3-dark"></div>
-                    <img class="content-image3-dark" src="./assets/img/celebrating/2.jpg " >
-                    <div class="content-details3-dark fadeIn-bottom3">
-                        <h3 class="content-title3">CELEBRACIONES</h3><br><br>
-                        <p style="color: #FFF; font-family: Montserrat-Medium; text-shadow: 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.288);">
-                          El Diseño es la imaginación,<br> creatividad e inspiración que hace <br>tu evento único. Nosotros trabajamos <br>de cerca con usted para descubrir su estilo<br>
-                          y luego usar ese conocimiento para desarrollar<br>cada componente estético de su <br>evento de papelería y <br>iluminación para flores y muebles.
-                        </p>
-                    </div>
-                </div>
-          </div>
-
-          <div class="col-md-4 " id="nav-destination">
             <div class="content3-dark">
                 <div class="content-overlay3-dark"></div>
-                <img class="content-image3-dark" src="./assets/img/celebrating/3.jpg " >
+                <img class="content-image3-dark" src="./assets/img/celebrating/1.jpg " >
                 <div class="content-details3-dark fadeIn-bottom3">
-                    <h3 class="content-title3">BODAS DE <br> DESTINO</h3><br><br>
                     <p style="color: #FFF; font-family: Montserrat-Medium; text-shadow: 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.288);">
-                      Por supuesto, el día de ensueño que espera debe <br>
-                       establecerse en un destino de ensueño perfecto para su <br>
-                        boda. ya sea que se imagine en las playas del Océano <br>
-                        Pacífico, las calles de Oaxaca, un bosque escondido o un <br>
-                         gran salón de baile de principios de siglo, le brindaremos <br> 
-                         uno de los lugares más mágicos imaginables para celebrar <br>
-                         su amor. Como su planificador de bodas de destino, <br>
-                         anticipamos y abordamos todos los problemas que surgen, <br>
-                         haciendo que su experiencia y viajes sean increíbles y sin <br>
-                         estrés.
+                      Brindamos el más alto nivel de <br> coordinación de bodas de servicio <br>completo y planificación. Como boda <br> profesional  planificadores, estamos <br> 
+                      comprometidos a hacer su evento de <br> boda sin estrés y disfrutable y la <br> ejecución impecable. <br><br>
+                      Si has imaginado tu sueño deshierbe <br> desde el momento en que ibas a comenzar <br>en la planificación de su boda, nosotros <br> trabajará con usted en cada
+                      paso <br> del camino. Cada boda y evento que <br> planeamos es exclusivos de nuestros <br> clientes y sus particularidades gustos y <br> aversiones y gusto específico y estilo.
                     </p>
                 </div>
-                <h2 class="text-carding mt-4 tittle_thin">DESTINO BODAS</h2>
             </div>
+            <h2 class="text-carding tittle_thin_dark mt-1">BODAS</h2>
+      </div>
+
+      <div class="col-md-4 " id="nav-celebrations">
+        <div class="lc-block">
+            <div editable="rich ">
+                <p class="tittle_thin_dark p-2" style="margin-bottom: 30px;">
+                    CELEBRACIONES <br><br><br>
+                </p>
+            </div>
+        </div>
+           <div class="content3-dark">
+              <div class="content-overlay3-dark"></div>
+              <img class="content-image3-dark" src="./assets/img/celebrating/5.png " >
+              <div class="content-details3-dark fadeIn-bottom3">
+                <p style="color: #FFF; font-family: Montserrat-Medium; text-shadow: 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.288);">
+                  El Diseño es la imaginación,<br> creatividad e inspiración que hace <br>tu evento único. Nosotros trabajamos <br>de cerca con usted para descubrir su estilo<br>
+                  y luego usar ese conocimiento para <br> desarrollar cada componente estético de <br>su evento de papelería y <br>iluminación para flores y muebles.
+                </p>
+              </div>
           </div>
+    </div>
+
+    <div class="col-md-4 " id="nav-destination">
+          <div class="content3-dark">
+            <div class="content-overlay3-dark"></div>
+            <img class="content-image3-dark" src="./assets/img/celebrating/6.png " >
+            <div class="content-details3-dark fadeIn-bottom3">
+<!--                              <h3 class="content-title3">DESTINATION <br> WEDDINGS</h3><br><br>-->
+                <p style="color: #FFF; font-family: Montserrat-Medium; text-shadow: 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.288);">
+                  Por supuesto, el día de ensueño que<br>
+                  espera debe establecerse en un destino <br> 
+                  de ensueño perfecto para su boda. ya sea <br>
+                  que se imagine en las playas del Océano <br>
+                  Pacífico, las calles de Oaxaca, un bosque<br>
+                  escondido o un gran salón de baile de <br>
+                  principios de siglo, le brindaremos uno <br>
+                  de los lugares más mágicos imaginables <br>
+                  para celebrar su amor. Como su <br> 
+                  planificador de bodas de destino,<br>
+                  anticipamos y abordamos todos los <br>
+                  problemas que surgen, haciendo que <br>
+                  su experiencia y viajes sean increíbles<br>
+                  y sin estrés.
+                </p>
+            </div>
+        </div>
+        <h2 class="text-carding tittle_thin_dark">DESTINO <br> BODAS</h2>
+  </div>
 
         </div>
 
