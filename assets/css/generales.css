@@ -301,9 +301,9 @@
 
     @media only screen and (min-width: 1280px) {
         .content3-dark .content-overlay3-dark{
-            left: 11px;
+            left: 0px;
             height: 100%;
-            width: 9%;
+            width: 100%;
         }
     }
 
@@ -413,7 +413,7 @@
 
     @media only screen and (min-width: 1660px) {
         .content3-dark .content-overlay3-dark{
-            left: 70px;
+            left: 68px;
             height: 100%;
             width: 73%;
         }
@@ -453,9 +453,9 @@
 
     @media only screen and (min-width: 1840px) {
         .content3-dark .content-overlay3-dark{
-            left: 102px;
+            left: 98px;
             height: 100%;
-            width: 64%;
+            width: 65.5%;
         }
     }
 
@@ -493,9 +493,9 @@
 
     @media only screen and (min-width: 2020px) {
         .content3-dark .content-overlay3-dark{
-            left: 130px;
+            left: 126px;
             height: 100%;
-            width: 58%;
+            width: 59.5%;
         }
     }
 
@@ -503,7 +503,7 @@
         .content3-dark .content-overlay3-dark{
             left: 135px;
             height: 100%;
-            width: 57%;
+            width: 57.5%;
         }
     }
 
@@ -517,9 +517,9 @@
 
     @media only screen and (min-width: 2130px) {
         .content3-dark .content-overlay3-dark{
-            left: 150px;
+            left: 145px;
             height: 100%;
-            width: 54%;
+            width: 56%;
         }
     }
 
@@ -779,9 +779,9 @@
 
         @media only screen and (min-width: 2020px) {
             .content3 .content-overlay3{
-                left: 130px;
-                height: 100%;
-                width: 58%;
+            left: 126px;
+            height: 100%;
+            width: 59.5%;
             }
         }
 
@@ -789,7 +789,7 @@
             .content3 .content-overlay3{
                 left: 135px;
                 height: 100%;
-                width: 57%;
+                width: 57.5%;
             }
         }
 
