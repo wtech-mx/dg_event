@@ -99,7 +99,7 @@
         width: 12vw;
         height: 12vw;
         object-fit: cover;
-        border: 6px solid #2D2E33;
+        border: 7px solid #2D2E33;
     }
     .content-details-dark{
         position: absolute;
@@ -207,9 +207,14 @@
 
     .content-image3-dark{
         width: 100%;
+        /*width: 12vw;*/
+        /*height: 12vw;*/
         object-fit: cover;
-        border: 3px solid #E4E4E4;
+        border: 1px solid #ffffff;
         max-width: 360px;
+        -webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.28);
+        -moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.28);
+        box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.28);
     }
 
     .content3-dark:hover .content-details3-dark {
@@ -290,9 +295,9 @@
 
     @media only screen and (min-width: 1280px) {
         .content3-dark .content-overlay3-dark{
-            left: 16px;
+            left: 11px;
             height: 100%;
-            width: 92%;
+            width: 9%;
         }
     }
 
@@ -442,7 +447,7 @@
 
     @media only screen and (min-width: 1840px) {
         .content3-dark .content-overlay3-dark{
-            left: 100px;
+            left: 102px;
             height: 100%;
             width: 64%;
         }
