@@ -53,6 +53,17 @@
         color: #000000;
     }
 
+    .sub {
+      display:inline-block;
+      border-bottom:0.1px solid #A7ABAE;
+      padding-bottom:2px;
+    }
+
+    .sub-sin {
+      display:inline-block;
+      border-bottom:0.1px solid #a7abae00;
+      padding-bottom:2px;
+    }
   </style>
 
     <nav class="navbar navbar-expand-lg bg-primario navbar-box">
@@ -143,8 +154,8 @@
       <video class="video_style" id="myVideo" src="./assets/video/video1.mp4" autoplay muted  loop ></video>
         <p class="text-center">
 <!--            <a class="text-play" type="button" onclick="playVid()">PLAY |</a>-->
-            <a class="text-play" type="button" onclick="pauseplayVid()">PAUSE |</a>
-            <a class="text-play" type="button" onclick="enableMute()">AUDIO</a> <br>
+            <a class="text-play pause" type="button" onclick="pauseplayVid()">PAUSE </a> <a class="text-play">|</a>
+            <a class="text-play mute" type="button" onclick="enableMute()">AUDIO</a> <br>
             <a class="text-play" type="button" href="#nav-about">
                  <i class="bi bi-chevron-down" style="font-size: 40px;opacity: 1;color: #a5a5a5"></i>
             </a>
