@@ -188,6 +188,22 @@
     text-shadow: 1.3px 1.3px 1.3px rgb(0 0 0 / 15%);
 }
 
+.tittle_footer{
+    font-family: "Montserrat-SemiBold";
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: #63686E;
+    text-decoration: none;
+}
+
+.tittle_footer-dark{
+    font-family: "Montserrat-SemiBold";
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: #ffff;
+    text-decoration: none;
+}
+
 .tittle_menu:hover{
     font-weight: bold;
     color: #000000;
