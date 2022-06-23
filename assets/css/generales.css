@@ -24,9 +24,9 @@
         box-shadow: 3px 3px 20px 3px rgba(0,0,0,0.4);
     }
 
-    .brand_logo:hover{
+    /* .brand_logo:hover{
         opacity: 1;
-    }
+    } */
 
     .brand_logo{
         opacity: 0.5;
@@ -810,7 +810,7 @@
         width: 12vw;
         height: 12vw;
         object-fit: cover;
-        border: 6px solid #E4E4E4;
+        border: 7px solid #E4E4E4;
     }
 
     .content-image3{
@@ -818,8 +818,11 @@
         /*width: 12vw;*/
         /*height: 12vw;*/
         object-fit: cover;
-        border: 6px solid #E4E4E4;
+        border: 1px solid #ffffff;
         max-width: 360px;
+        -webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.28);
+        -moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.28);
+        box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.28);
     }
 
     .content-details{
