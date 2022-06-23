@@ -268,9 +268,8 @@
 
 
 .tittle_thin{
-    font-family: "Montserrat-Thin";
+    font-family: "NewYork";
     color: var( --e-global-color-127a5e8 );
-    font-weight: 600;
     letter-spacing: 7px;
     text-shadow: 2px 1px 2px rgb(0 0 0 / 18%);
     font-size: 25px;
