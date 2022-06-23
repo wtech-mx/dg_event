@@ -29,7 +29,10 @@
     } */
 
     .brand_logo{
+        padding: 20px;
         opacity: 0.5;
+-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
     }
 
     .video_style{
