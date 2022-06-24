@@ -29,7 +29,9 @@
     } */
 
     .brand_logo{
-        padding: 20px;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-bottom: 70px;
         opacity: 0.5;
         -webkit-filter: grayscale(100%);
         filter: grayscale(100%);
@@ -39,8 +41,6 @@
         border-style: solid;
         border-width: 0px 0px 3px 0px;
         border-color: #E4E4E4;
-        width: 600; 
-        height: 400;
         transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
         margin-top: 0px;
         margin-bottom: 0px;
