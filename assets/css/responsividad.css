@@ -219,8 +219,8 @@
 
         @media only screen and (min-width: 1870px) {
             .content3 .content-overlay3{
-                left: 5.6vw;
-                width: 63%;
+                left: 5.5vw;
+                width: 63.4%;
                 max-width: 400px;
             }
         }
@@ -297,3 +297,303 @@
             }
         }
 
+/* ==========================================================================================Modo Dark ====================================================================*/
+
+@media only screen and (min-width: 1250px) {
+    .content3-dark .content-overlay3-dark{
+        left: 0vw;
+        height: 100%;
+        width: 100%;
+        flex: 0 0 auto;
+        max-width: 450px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .content3-dark .content-overlay3-dark{
+        left: 0.5vw;
+        height: 100%;
+        width: 98%;
+        flex: 0 0 auto;
+        max-width: 450px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .content3-dark .content-overlay3-dark{
+        left: 0.5vw;
+        height: 100%;
+        width: 96%;
+        flex: 0 0 auto;
+        max-width: 450px;
+    }
+}
+
+@media only screen and (min-width: 1320px) {
+    .content3-dark .content-overlay3-dark{
+        left: 1vw;
+        max-width: 360px;
+    }
+}
+
+@media only screen and (min-width: 1335px) {
+    .content3-dark .content-overlay3-dark{
+        left: 1vw;
+        max-width: 365px;
+    }
+}
+
+@media only screen and (min-width: 1365px) {
+    .content3-dark .content-overlay3-dark{
+        left: 1.5vw;
+        max-width: 360px;
+    }
+}
+
+@media only screen and (min-width: 1380px) {
+    .content3-dark .content-overlay3-dark{
+        left: 1.7vw;
+       width: 90%;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .content3-dark .content-overlay3-dark{
+        left: 1.9vw;
+       width: 90%;
+    }
+}
+
+@media only screen and (min-width: 1420px) {
+    .content3-dark .content-overlay3-dark{
+        left: 2.1vw;
+       width: 91%;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .content3-dark .content-overlay3-dark{
+        left: 2.3vw;
+       width: 93%;
+    }
+}
+
+@media only screen and (min-width: 1460px) {
+    .content3-dark .content-overlay3-dark{
+        left: 2.5vw;
+       width: 95%;
+    }
+}
+
+@media only screen and (min-width: 1480px) {
+    .content3-dark .content-overlay3-dark{
+       left: 2.7vw;
+       width: 96%;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .content3-dark .content-overlay3-dark{
+       left: 2.85vw;
+       width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1520px) {
+    .content3-dark .content-overlay3-dark{
+       left: 3vw;
+       width: 101%;
+    }
+}
+
+@media only screen and (min-width: 1535px) {
+    .content3-dark .content-overlay3-dark{
+        left: 3.1vw;
+        width: 79%;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 1560px) {
+    .content3-dark .content-overlay3-dark{
+        left: 3.4vw;
+        width: 78%;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 1580px) {
+    .content3-dark .content-overlay3-dark{
+        left: 3.6vw;
+        width: 76%;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 1610px) {
+    .content3-dark .content-overlay3-dark{
+        left: 3.8vw;
+        width: 74.5%;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 1630px) {
+    .content3-dark .content-overlay3-dark{
+        left: 3.95vw;
+        width: 73.5%;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 1660px) {
+    .content3-dark .content-overlay3-dark{
+        left: 4.2vw;
+        width: 72%;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 1690px) {
+    .content3-dark .content-overlay3-dark{
+        left: 4.4vw;
+        width: 70.5%;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 1710px) {
+    .content3-dark .content-overlay3-dark{
+        left: 4.56vw;
+        width: 69.65%;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 1740px) {
+    .content3-dark .content-overlay3-dark{
+        left: 4.8vw;
+        width: 68.5%;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 1760px) {
+    .content3-dark .content-overlay3-dark{
+        left: 4.9vw;
+        width: 67.5%;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 1785px) {
+    .content3-dark .content-overlay3-dark{
+        left: 5vw;
+        width: 66.5%;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 1810px) {
+    .content3-dark .content-overlay3-dark{
+        left: 5.2vw;
+        width: 65.5%;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 1835px) {
+    .content3-dark .content-overlay3-dark{
+        left: 5.4vw;
+        width: 64.5%;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 1850px) {
+    .content3-dark .content-overlay3-dark{
+        left: 5.5vw;
+        width: 64%;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 1870px) {
+    .content3-dark .content-overlay3-dark{
+        left: 5.4vw;
+        width: 63.9%;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    .content3-dark .content-overlay3-dark{
+        left: 5.6vw;
+        width: 63%;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 1930px) {
+    .content3-dark .content-overlay3-dark{
+        left: 5.9vw;
+        width: 61%;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 1950px) {
+    .content3-dark .content-overlay3-dark{
+        left: 6vw;
+        width: 60.5%;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 1980px) {
+    .content3-dark .content-overlay3-dark{
+        left: 6.2vw;
+        width: 59.3%;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 2020px) {
+    .content3-dark .content-overlay3-dark{
+        left: 6.4vw;
+        width: 58%;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 2040px) {
+    .content3-dark .content-overlay3-dark{
+        left: 6.5vw;
+        width: 57.4%;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 2070px) {
+    .content3-dark .content-overlay3-dark{
+        left: 6.6vw;
+        width: 56.6%;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 2100px) {
+    .content3-dark .content-overlay3-dark{
+        left: 6.8vw;
+        width: 55.6%;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 2100px) {
+    .content3-dark .content-overlay3-dark{
+        left: 7vw;
+        width: 54.4%;
+        max-width: 400px;
+    }
+}
