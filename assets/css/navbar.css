@@ -11,21 +11,36 @@
 }
 
 
+/*para pantallas chicas*/
+
 @media screen and (max-width: 576px) {    
     .video_style {
-        height: 50vh;
-        width: auto;
-        object-fit: contain;
+        height: 45vh;
+        width: 100%;
+        object-fit: cover;
     }
     
     .hiden_responsive_sm{
         display: none!important;
     }
+
+    .nav_bar_mb{
+        left: auto;
+        top: -15px;
+        width: 330px;
+    }
+
+    .navbar_mb{
+        height: 90vh!important;
+    }
 }
+
+/*para pantallas grandes*/
 
 @media screen and (min-width: 577px) {    
     .hiden_responsive_pc{
         display: none!important;
     }
+
 }
 
