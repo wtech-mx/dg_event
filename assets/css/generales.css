@@ -264,8 +264,8 @@
 
     .content_mb{
         position: relative;
-        width: 150px;
-        height: 150px;
+        width: 135px;
+        height: 135px;
         overflow: hidden
     }
 
@@ -293,8 +293,8 @@
     .content_mb .content-overlay_mb{
         background: rgba(228,228,228,0.7);
         position: absolute;
-        width: 150px;
-        height: 150px;
+        width: 135px;
+        height: 135px;
         left: 0;
         top: 0;
         bottom: 0;
@@ -341,8 +341,8 @@
     }
 
     .content-image_mb{
-        width: 150px;
-        height: 150px;
+        width: 135px;
+        height: 135px;
         object-fit: cover;
         border: 7px solid #E4E4E4;
     }
