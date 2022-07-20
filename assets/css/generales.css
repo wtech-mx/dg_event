@@ -496,4 +496,43 @@
     .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl{
             --bs-offcanvas-width: 300px;
     }
+
+.celebrating_cel{
+        height: 82vh;
+    }
+
+    .divider_mb{
+        width:200px;
+        margin: auto;
+        margin-bottom: 13rem;
+    }
+
+    .title_press_mb{
+        margin-top: 3rem;
+    }
+
+    .brand_1{
+        width: 130%;
+        -webkit-filter: brightness(0%)!important;
+        padding-bottom: 60px!important;
+    }
+
+    .brand_2{
+        width: 107%;
+        -webkit-filter: brightness(0%)!important;
+    }
+
+    .brand_3{
+        width: 105%;
+    }
+
+    .brand_4{
+        width: 95%;
+        -webkit-filter: brightness(0%)!important;
+    }
+
+    .brand_5{
+        width: 100%;
+        -webkit-filter: brightness(0%)!important;
+    }
     
