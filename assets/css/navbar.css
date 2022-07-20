@@ -10,16 +10,14 @@
     border: 0px;
 }
 
-
-/*para pantallas chicas*/
-
-@media screen and (max-width: 576px) {    
+@media screen and (max-width: 992px) {
     .video_style {
         height: 45vh;
         width: 100%;
         object-fit: cover;
+        margin-top: 6%!important;
     }
-    
+
     .hiden_responsive_sm{
         display: none!important;
     }
@@ -37,10 +35,22 @@
 
 /*para pantallas grandes*/
 
-@media screen and (min-width: 577px) {    
+@media screen and (min-width: 993px) {
     .hiden_responsive_pc{
         display: none!important;
     }
-
 }
+
+/*para pantallas chicas*/
+
+@media screen and (max-width: 576px) {
+    .video_style {
+        height: 45vh;
+        width: 100%;
+        object-fit: cover;
+        margin-top: 13%!important;
+    }
+}
+
+
 
