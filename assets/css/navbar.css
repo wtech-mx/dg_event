@@ -1,0 +1,31 @@
+.img_logo_navres{
+    width: 120px;
+}
+
+.ml_navbar_res{
+    margin-left: 10px;
+}
+
+.navbar-toggler{
+    border: 0px;
+}
+
+
+@media screen and (max-width: 576px) {    
+    .video_style {
+        height: 50vh;
+        width: auto;
+        object-fit: contain;
+    }
+    
+    .hiden_responsive_sm{
+        display: none!important;
+    }
+}
+
+@media screen and (min-width: 577px) {    
+    .hiden_responsive_pc{
+        display: none!important;
+    }
+}
+

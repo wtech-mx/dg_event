@@ -14,8 +14,8 @@
     video {
         height: 85vh;
         width: 100%;
-        object-fit: fill; // use "cover" to avoid distortion
-        position: absolute;
+        object-fit: fill; 
+        
     }
 
     .navbar-box{
@@ -425,3 +425,5 @@
         position: relative;
         top: 10px;
     }
+
+    
