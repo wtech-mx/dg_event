@@ -46,10 +46,10 @@
         margin-bottom: 0px;
         padding: 0px 0px 0px 0px;
         height: 100%;
-        max-height: 550px;
+        max-height: 610px;
         width: 100%;
-        object-fit: none;
-        margin-top: 73px!important;
+        object-fit: fill;
+        margin-top: 115px;
     }
 
     .arrow_down{
@@ -493,7 +493,7 @@
     .content-details2 h3{
         font-family: "Montserrat-Medium";
         color: #2F2F34;
-        font-size: 21px;
+        font-size: 20px;
         font-weight: 900;
         letter-spacing: 5px;
         text-align: center;

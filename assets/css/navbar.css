@@ -11,9 +11,6 @@
 }
 
 @media screen and (max-width: 992px) {
-    .video_style {
-
-    }
 
     .hiden_responsive_sm{
         display: none!important;
@@ -38,6 +35,13 @@
          .tittle_thin{
             font-size: 20px;
             margin-bottom: 50px;
+        }
+    }
+
+    @media screen and (max-width: 1100px) {
+        .video_style{
+            height: 630px!important;
+            max-height: 650px!important;
         }
     }
 
@@ -68,6 +72,17 @@
     .video_style {
         object-fit: none;
     }
+}
+
+@media screen and (max-width: 992px) {
+    .video_style{
+            margin-top: 74px!important;
+        }
+
+        .video_style{
+            height: 100%!important;
+            max-height: 650px!important;
+        }
 }
 
 @media screen and (max-width: 767px) {
