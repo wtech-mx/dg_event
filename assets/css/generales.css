@@ -305,6 +305,21 @@
         transition: all 0.4s ease-in-out 0s
     }
 
+    .content_mb .content-overlay-dark_mb{
+        background: rgba(45,46,51,0.7);
+        position: absolute;
+        width: 135px;
+        height: 135px;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0;
+        -webkit-transition: all 0.4s ease-in-out 0s;
+        -moz-transition: all 0.4s ease-in-out 0s;
+        transition: all 0.4s ease-in-out 0s
+    }
+
     .content3 .content-overlay3{
         background: rgba(228,228,228,0.7);
         position: absolute;
@@ -345,6 +360,13 @@
         height: 135px;
         object-fit: cover;
         border: 7px solid #E4E4E4;
+    }
+
+    .content-image-dark_mb{
+        width: 135px;
+        height: 135px;
+        object-fit: cover;
+        border: 7px solid #2D2E33;
     }
 
     .content-image3{

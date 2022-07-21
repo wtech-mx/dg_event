@@ -12,6 +12,7 @@
     <!--css custom-->
     <link rel="stylesheet" href="./assets/css/colors.css">
     <link rel="stylesheet" href="./assets/css/fonts.css">
+    <link rel="stylesheet" href="./assets/css/navbar.css">
     <link rel="stylesheet" href="./assets/css/generales.css">
     <link rel="stylesheet" href="./assets/css/ow-custom.css">
     <link rel="stylesheet" href="./assets/css/modal_form.css">
@@ -58,79 +59,186 @@
     }
   </style>
 
-    <nav class="navbar fixed-top navbar-expand-lg bg-primario-dark navbar-box">
-      <div class="container-fluid ">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar fixed-top navbar-expand-lg bg-primario-dark navbar-box">
+    <div class="container-fluid ">
+
+      <div class="row hiden_responsive_pc p-2">
+        <div class="col-12">
+
+            <a class="nav-link dropdown-toggle tittle_menu2_dark ml_navbar_res" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              EN<i class="bi bi-chevron-down arrowfont" style="color: #000;"></i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item tittle_menu2_dark" href="./index-dark.html">ENGLISH</a></li>
+              <li><a class="dropdown-item tittle_menu2_dark" href="./index-es-dark.html">SPANISH</a></li>
+            </ul>
+
+          <div class="form-check form-switch" style="padding-left: 3em;">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onclick="RedirectDark()"checked>
+          </div>
+        </div>
+      </div>
+
+        <div class="content_logo_responsive hiden_responsive_pc p-2">
+          <img class="img_logo_navres" src="./assets/img/logo-dark.png" >
+        </div>
+
+          <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
 
-            <div class="collapse navbar-collapse mt-3 ml-5 mr-5" id="navbarSupportedContent">
-              <ul class="navbar-nav nav-fill w-100 d-flex align-items-end">
-                <li class="nav-item">
-                  <a class="nav-link tittle_menu_dark" aria-current="page" href="#nav-about">ABOUT US</a>
-                </li>
+          <div class="collapse navbar-collapse navbar_mb mt-3 ml-5 mr-5" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-fill w-100 d-flex align-items-end">
+              <li class="nav-item">
+                <a class="nav-link tittle_menu_dark" aria-current="page" href="#nav-about">ABOUT US</a>
+              </li>
 
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle_dark tittle_menu_dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <i class="bi bi-chevron-down" style="color: #E4E4E4;"></i>EVENTS
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle tittle_menu_dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="bi bi-chevron-down" style="color: #000;"></i> EVENTS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="margin-top: 15px; position: absolute; left: 30%;">
+                  <li><a class="dropdown-item tittle_menu_dark" href="#nav-weddings">WEDDINGS</a></li>
+                  <li><a class="dropdown-item tittle_menu_dark" href="#nav-weddings">CELEBRATIONS</a></li>
+                  <li><a class="dropdown-item tittle_menu_dark" href="#nav-weddings">DESTINATION WEDDINGS</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link tittle_menu_dark" href="#nav-gallery">GALLERY</a>
+              </li>
+
+              <li class="nav-item hiden_responsive_sm ">
+                <a class="navbar-brand" href="#">
+                  <img src="./assets/img/logo-dark.png" alt="" width="220"  class="d-inline-block align-text-top" style="margin-bottom: 5px;">
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link tittle_menu_dark" href="#nav-services">SERVICES</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link tittle_menu_dark" href="#nav-press">PRESS</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link tittle_menu_dark" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" >CONTACT</a>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav nav-fill hiden_responsive_sm " style="position: relative;top: -25px;margin-right:40px">
+              <div class="row">
+                <div class="col-12">
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle tittle_menu2_dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      EN<i class="bi bi-chevron-down arrowfont" style="color: #000;"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item tittle_menu2_dark" href="./index-dark.html">ENGLISH</a></li>
+                      <li><a class="dropdown-item tittle_menu2_dark" href="./index-es-dark.html">SPANISH</a></li>
+                    </ul>
+
+                  </li>
+
+                  <div class="form-check form-switch" style="padding-left: 3em;">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onclick="RedirectDark()"checked>
+                  </div>
+                </div>
+              </div>
+            </ul>
+
+          </div>
+
+          <div class="offcanvas offcanvas-end hiden_responsive_pc" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+            <div class="d-flex justify-content-around p-3">
+
+                <div class="row hiden_responsive_pc ">
+                    <div class="col-12">
+                        <a class="nav-link dropdown-toggle tittle_menu2_dark ml_navbar_res" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          EN<i class="bi bi-chevron-down arrowfont" style="color: #000;"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item tittle_menu2_dark" href="./index-dark.html">ENGLISH</a></li>
+                          <li><a class="dropdown-item tittle_menu2_dark" href="./index-es-dark.html">SPANISH</a></li>
+                        </ul>
+
+                      <div class="form-check form-switch" style="padding-left: 3em;">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onclick="RedirectDark()"checked>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="content_logo_responsive hiden_responsive_pc ">
+                  <img class="img_logo_navres" src="./assets/img//logo.png" >
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-dismiss="offcanvas" aria-label="Close">
+                  <i class="bi bi-x-square-fill"></i>
+                </button>
+
+            </div>
+
+            <div class="d-flex justify-content-around p-3">
+
+              <ul class="navbar-nav " style="text-align: center;min-width: 250px;">
+
+              <li class="nav-item" style="background-color: #f1f1f1">
+                <a class="nav-link tittle_menu_dark" aria-current="page" href="#nav-about">HOME</a>
+              </li>
+
+              <li class="nav-item" style="background-color: #cbcbcb">
+                <a class="nav-link tittle_menu_dark" aria-current="page" href="#nav-about">ABOUT US</a>
+              </li>
+
+                <li class="nav-item dropdown" style="background-color: #f1f1f1">
+                  <a class="nav-link dropdown-toggle tittle_menu_dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    EVENTS
                   </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="margin-top: 15px; position: absolute; left: 30%;">
-                    <li><a class="dropdown-item tittle_menu_dark" href="#nav-weddings">WEDDINGS</a></li>
-                    <li><a class="dropdown-item tittle_menu_dark" href="#nav-weddings">CELEBRATIONS</a></li>
-                    <li><a class="dropdown-item tittle_menu_dark" href="#nav-weddings">DESTINATION WEDDINGS</a></li>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item text-center tittle_menu_dark" href="#nav-weddings">WEDDINGS</a></li>
+                      <li><a class="dropdown-item text-center tittle_menu_dark" href="#nav-weddings">CELEBRATIONS</a></li>
+                      <li><a class="dropdown-item text-center tittle_menu_dark" href="#nav-weddings">DESTINATION WEDDINGS</a></li>
                   </ul>
                 </li>
 
-                <li class="nav-item">
-                  <a class="nav-link tittle_menu_dark" href="#nav-gallery">GALLERY</a>
-                </li>
+              <li class="nav-item" style="background-color: #cbcbcb">
+                <a class="nav-link tittle_menu_dark" href="#nav-gallery">GALLERY</a>
+              </li>
 
-                <li class="nav-item">
-                  <a class="navbar-brand" href="#">
-                    <img src="./assets/img/logo-dark.png" alt="" width="220"  class="d-inline-block align-text-top" style="margin-bottom: 5px;">
-                  </a>
-                </li>
+              <li class="nav-item" style="background-color: #f1f1f1">
+                <a class="nav-link tittle_menu_dark" href="#nav-services">SERVICES</a>
+              </li>
 
-                <li class="nav-item">
-                  <a class="nav-link tittle_menu_dark" href="#nav-services">SERVICES</a>
-                </li>
+              <li class="nav-item" style="background-color: #cbcbcb">
+                <a class="nav-link tittle_menu_dark" href="#nav-press">PRESS</a>
+              </li>
 
-                <li class="nav-item">
-                  <a class="nav-link tittle_menu_dark" href="#nav-press">PRESS</a>
-                </li>
+              <li class="nav-item" style="background-color: #f1f1f1">
+                <a class="nav-link tittle_menu_dark" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="text-decoration: none;">CONTACT</a>
+              </li>
 
-                <li class="nav-item">
-                  <a class="nav-link tittle_menu_dark" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" >CONTACT</a>
-                </li>
-              </ul>
-
-              <ul class="navbar-nav nav-fill" style="position: relative;top: -25px;margin-right:40px">
-                <div class="row">
-                  <div class="col-12">
-
-
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle tittle_menu2_dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        EN<i class="bi bi-chevron-down arrowfont" style="color: #E4E4E4;"></i>
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item tittle_menu2" href="./index-dark.html" style="color: #E4E4E4;">ENGLISH</a></li>
-                          <li><a class="dropdown-item tittle_menu2" href="./index-es-dark.html" style="color: #E4E4E4;">SPANISH</a></li>
-                      </ul>
-                    </li>
-
-                    <div class="form-check form-switch" style="padding-left: 3em;">
-                      <input class="form-check-input" type="checkbox" role="switch" checked="checked" id="flexSwitchCheckDefault" onclick="RedirectDark()">
-                    </div>
-
-                  </div>
-                </div>
               </ul>
 
             </div>
 
-      </div>
-    </nav>
+            <div class="d-flex justify-content-center">
+                <img src="./assets/icons/whats.png" style="width:15px;height:15px!important;margin-right: 5px;opacity: 0.6;">
+                <img src="./assets/icons/envelope.png" style="width: 22px;height: 23px!important;margin-right: 20px;opacity: 0.6;position: relative;top: -3px;">
+                <img src="./assets/icons/insta.png" style=" width: 15px;height:15px!important;opacity: 0.6;">
+                <img src="./assets/icons/face.png" style="width:15px;height:15px!important;opacity: 0.6;">
+                <img src="./assets/icons/tiktok.png" style=" width: 15px;height:15px!important;opacity: 0.6;">
+            </div>
+
+              <p class="text-center text-muted mt-2">DG Event Planning 2022©</p>
+
+          </div>
+
+    </div>
+  </nav>
+
 
     <!--        _____________________-->
     <!--        Video-->
@@ -303,78 +411,153 @@
     <section class="py-5 text-center container">
       <div class="row py-lg-5">
         <div class="col-10 mx-auto">
-          <h1 class="tittle_newyork mb-5">SERVICES</h1>
+          <h1 class="tittle_newyork serv_mb mb-5">SERVICES</h1>
+            <div class="content_services_pc hiden_responsive_sm">
+              <div class="row">
+                <div class="d-flex justify-content-between mt-2">
 
-          <div class="row">
-            <div class="d-flex justify-content-between mt-2">
-
-                <div class="content">
-                    <div class="content-overlay-dark"></div>
-                    <img class="content-image-dark" src="./assets/img/services/CULINARY.jpg">
-                    <div class="content-details-dark fadeIn-bottom">
-                        <h3 class="content-title">CULINARY</h3>
+                    <div class="content">
+                        <div class="content-overlay-dark"></div>
+                        <img class="content-image-dark" src="./assets/img/services/CULINARY.jpg">
+                        <div class="content-details-dark fadeIn-bottom">
+                            <h3 class="content-title">CULINARY</h3>
+                        </div>
                     </div>
-                </div>
 
-                <div class="content">
-                    <div class="content-overlay-dark"></div>
-                    <img class="content-image-dark" src="./assets/img/services/FLOWERS AND DECO.jpg">
-                    <div class="content-details-dark fadeIn-bottom">
-                        <h3 class="content-title">FLORAL & <br> DECOR</h3>
+                    <div class="content">
+                        <div class="content-overlay-dark"></div>
+                        <img class="content-image-dark" src="./assets/img/services/FLOWERS AND DECO.jpg">
+                        <div class="content-details-dark fadeIn-bottom">
+                            <h3 class="content-title">FLORAL & <br> DECOR</h3>
+                        </div>
                     </div>
-                </div>
 
-                <div class="content">
-                    <div class="content-overlay-dark"></div>
-                    <img class="content-image-dark" src="./assets/img/services/CANDY TABLE.jpg">
-                    <div class="content-details-dark fadeIn-bottom">
-                        <h3 class="content-title">CANDY <br> TABLES</h3>
+                    <div class="content">
+                        <div class="content-overlay-dark"></div>
+                        <img class="content-image-dark" src="./assets/img/services/CANDY TABLE.jpg">
+                        <div class="content-details-dark fadeIn-bottom">
+                            <h3 class="content-title">CANDY <br> TABLES</h3>
+                        </div>
                     </div>
-                </div>
 
-                <div class="content">
-                    <div class="content-overlay-dark"></div>
-                    <img class="content-image-dark" src="./assets/img/services/PHOTO AND VIDEO.jpg">
-                    <div class="content-details-dark fadeIn-bottom">
-                        <h3 class="content-title">PHOTO & <br> VIDEO</h3>
+                    <div class="content">
+                        <div class="content-overlay-dark"></div>
+                        <img class="content-image-dark" src="./assets/img/services/PHOTO AND VIDEO.jpg">
+                        <div class="content-details-dark fadeIn-bottom">
+                            <h3 class="content-title">PHOTO & <br> VIDEO</h3>
+                        </div>
                     </div>
-                </div>
 
+                </div>
+              </div>
+
+              <div class="row mt-5">
+                  <div class="d-flex justify-content-evenly">
+
+                      <div class="content">
+                          <div class="content-overlay-dark"></div>
+                          <img class="content-image-dark" src="./assets/img/services/MUSIC AND ENTERTAINMENT.jpg">
+                          <div class="content-details2-dark fadeIn-bottom">
+                              <h3 class="content-title">MUSIC & <br> ENTERTAINMENT</h3>
+                          </div>
+                      </div>
+
+                      <div class="content">
+                          <div class="content-overlay-dark"></div>
+                          <img class="content-image-dark" src="./assets/img/services/TRANSPORTATION.webp">
+                          <div class="content-details2-dark fadeIn-bottom">
+                              <h3 class="content-title">TRANSPORTATION</h3>
+                          </div>
+                      </div>
+
+                      <div class="content">
+                          <div class="content-overlay-dark"></div>
+                          <img class="content-image-dark" src="./assets/img/services/ACCOMMODATION.jpeg">
+                          <div class="content-details2-dark fadeIn-bottom">
+                              <h3 class="content-title">ACCOMMODATIONS</h3>
+                          </div>
+                      </div>
+
+                  </div>
+
+              </div>
             </div>
-        </div>
+            <div class="content_services_mb hiden_responsive_pc">
+              <div class="row">
 
-         <div class="row mt-5">
-             <div class="d-flex justify-content-evenly">
-
-                <div class="content">
-                    <div class="content-overlay-dark"></div>
-                    <img class="content-image-dark" src="./assets/img/services/MUSIC AND ENTERTAINMENT.jpg">
-                    <div class="content-details2-dark fadeIn-bottom">
-                        <h3 class="content-title">MUSIC & <br> ENTERTAINMENT</h3>
+                <div class="col-6 p-1">
+                  <div class="d-flex justify-content-center">
+                    <div class="content_mb">
+                        <div class="content-overlay-dark_mb"></div>
+                        <img class="content-image-dark_mb" src="./assets/img/services/CULINARY.jpg">
+                        <div class="content-details_mb fadeIn-bottom">
+                            <h3 class="content-title">CULINARY</h3>
+                        </div>
                     </div>
+                  </div>
                 </div>
 
-                <div class="content">
-                    <div class="content-overlay-dark"></div>
-                    <img class="content-image-dark" src="./assets/img/services/TRANSPORTATION.webp">
-                    <div class="content-details2-dark fadeIn-bottom">
-                        <h3 class="content-title">TRANSPORTATION</h3>
+                <div class="col-6 p-1">
+                  <div class="d-flex justify-content-center">
+                    <div class="content_mb">
+                        <div class="content-overlay-dark_mb"></div>
+                        <img class="content-image-dark_mb" src="./assets/img/services/FLOWERS AND DECO.jpg">
+                        <div class="content-details_mb fadeIn-bottom">
+                            <h3 class="content-title">FLORAL & <br> DECOR</h3>
+                        </div>
                     </div>
+                  </div>
                 </div>
 
-                <div class="content">
-                    <div class="content-overlay-dark"></div>
-                    <img class="content-image-dark" src="./assets/img/services/ACCOMMODATION.jpeg">
-                    <div class="content-details2-dark fadeIn-bottom">
-                        <h3 class="content-title">ACCOMMODATIONS</h3>
+                <div class="col-6 p-1">
+                  <div class="d-flex justify-content-center">
+                    <div class="content_mb">
+                        <div class="content-overlay-dark_mb"></div>
+                        <img class="content-image-dark_mb" src="./assets/img/services/CANDY TABLE.jpg">
+                        <div class="content-details_mb fadeIn-bottom">
+                            <h3 class="content-title">CANDY <br> TABLES</h3>
+                        </div>
                     </div>
+                  </div>
                 </div>
 
+                <div class="col-6 p-1">
+                  <div class="d-flex justify-content-center">
+                    <div class="content_mb">
+                        <div class="content-overlay-dark_mb"></div>
+                        <img class="content-image-dark_mb" src="./assets/img/services/MUSIC AND ENTERTAINMENT.jpg">
+                        <div class="content-details2_mb fadeIn-bottom">
+                            <h3 class="content-title">MUSIC & <br> ENTERTAINMENT</h3>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6 p-1">
+                  <div class="d-flex justify-content-center">
+                    <div class="content_mb">
+                        <div class="content-overlay-dark_mb"></div>
+                        <img class="content-image-dark_mb" src="./assets/img/services/TRANSPORTATION.webp">
+                        <div class="content-details2_mb fadeIn-bottom">
+                            <h3 class="content-title">TRANSPORTATION</h3>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-6 p-1">
+                  <div class="d-flex justify-content-center">
+                    <div class="content_mb">
+                        <div class="content-overlay-dark_mb"></div>
+                        <img class="content-image-dark_mb" src="./assets/img/services/ACCOMMODATION.jpeg">
+                        <div class="content-details2_mb fadeIn-bottom">
+                            <h3 class="content-title">ACCOMMODATIONS</h3>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-
-        </div>
-
-        </div>
       </div>
     </section>
 
@@ -389,10 +572,17 @@
     <div class="col-12">
         <h1 class="tittle_newyork_life ">LIFE IS WORTH</h1>
         <h1 class="tittle_thin_life ">CELEBRATING</h1>
-        <hr class="mt-4 text-center" style="width:230px; margin: auto;margin-bottom: 13rem!important;">
-        <div class="row p-5 bg-secundario-dark p" style="height: 82vh;">
+        <hr class="mt-2 text-center divider_mb">
+        <div class="row p-5 bg-secundario-dark celebrating_cel">
 
           <div class="col-md-4 ">
+              <div class="lc-block hiden_responsive_pc_tittle_pc">
+                  <div editable="rich ">
+                      <p class="tittle_thin_dark p-2" style="margin-bottom: 30px;">
+                        WEDDINGS <br><br><br>
+                      </p>
+                  </div>
+              </div>
               <div class="content3-dark">
                   <div class="content-overlay3-dark"></div>
                   <img class="content-image3-dark" src="./assets/img/celebrating/4.png " >
@@ -406,7 +596,7 @@
                     </p>
                   </div>
               </div>
-              <h2 class="text-carding tittle_thin_dark" >WEDDINGS</h2>
+              <h2 class="text-carding tittle_thin_dark hiden_responsive_pc_tittle" >WEDDINGS</h2>
           </div>
 
           <div class="col-md-4 ">
@@ -430,6 +620,13 @@
           </div>
 
           <div class="col-md-4 ">
+            <div class="lc-block hiden_responsive_pc_tittle_pc">
+                <div editable="rich ">
+                    <p class="tittle_thin_dark p-2" style="margin-bottom: 30px;">
+                      DESTINATION <br> WEDDONGS <br><br><br>
+                    </p>
+                </div>
+            </div>
             <div class="content3-dark">
                 <div class="content-overlay3-dark"></div>
                 <img class="content-image3-dark" src="./assets/img/celebrating/6.png " >
@@ -442,7 +639,7 @@
                   </p>
                 </div>
             </div>
-            <h2 class="text-carding tittle_thin_dark">DESTINATION <br> WEDDONGS</h2>
+            <h2 class="text-carding tittle_thin_dark hiden_responsive_pc_tittle">DESTINATION <br> WEDDONGS</h2>
           </div>
 
         </div>
@@ -458,36 +655,36 @@
     <section class="py-5 text-center container" id="nav-press">
         <div class="row py-lg-5">
           <div class="col-10 mx-auto">
-            <h1 class="tittle_newyork mb-5 mt-5">PRESS</h1>
+            <h1 class="tittle_newyork mb-5 mt-5 title_press_mb">PRESS</h1>
   
             <div class="row align-items-center">
 
               <div class="col-3">
-                <img class="brand_logo" style="width: 130%;-webkit-filter: brightness(0%)!important;padding-bottom: 60px!important;" src="./assets/img/prensa/33.png">
+                <img class="brand_logo brand_1" style="width: 130%;-webkit-filter: brightness(0%)!important;padding-bottom: 60px!important;" src="./assets/img/prensa/33.png">
             </div>
 
             <div class="col-3">
-                <img class="brand_logo" style="width: 107%;-webkit-filter: brightness(0%)!important;" src="./assets/img/prensa/55.png">
+                <img class="brand_logo brand_2" style="width: 107%;-webkit-filter: brightness(0%)!important;" src="./assets/img/prensa/55.png">
             </div>
 
             <div class="col-3">
-                <img class="brand_logo" style="width: 107%;-webkit-filter: brightness(0%)!important;" src="./assets/img/prensa/54.png">
+                <img class="brand_logo brand_2" style="width: 107%;-webkit-filter: brightness(0%)!important;" src="./assets/img/prensa/54.png">
             </div>
 
             <div class="col-3">
-                <img class="brand_logo" style="width: 107%;-webkit-filter: brightness(0%)!important;" src="./assets/img/prensa/34.png">
+                <img class="brand_logo brand_2" style="width: 107%;-webkit-filter: brightness(0%)!important;" src="./assets/img/prensa/34.png">
             </div>
 
             <div class="col-4">
-                <img class="brand_logo" style="width: 105%;" src="./assets/img/prensa/32.png">
+                <img class="brand_logo brand_3" style="width: 105%;" src="./assets/img/prensa/32.png">
             </div>
 
             <div class="col-4">
-                <img class="brand_logo" style="width: 95%;-webkit-filter: brightness(0%)!important;" src="./assets/img/prensa/35.png">
+                <img class="brand_logo brand_4" style="width: 95%;-webkit-filter: brightness(0%)!important;" src="./assets/img/prensa/35.png">
             </div>
 
             <div class="col-4">
-              <img class="brand_logo" style="width: 100%;-webkit-filter: brightness(0%)!important;" src="./assets/img/prensa/31.png">
+              <img class="brand_logo brand_5" style="width: 100%;-webkit-filter: brightness(0%)!important;" src="./assets/img/prensa/31.png">
             </div>
 
           </div>
