@@ -12,10 +12,7 @@
 
 @media screen and (max-width: 992px) {
     .video_style {
-        height: 45vh;
-        width: 100%;
-        object-fit: cover;
-        margin-top: 6%!important;
+
     }
 
     .hiden_responsive_sm{
@@ -69,10 +66,7 @@
 
 @media screen and (max-width: 576px) {
     .video_style {
-        height: 45vh;
-        width: 100%;
-        object-fit: cover;
-        margin-top: 13%!important;
+
     }
 }
 
