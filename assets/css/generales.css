@@ -175,7 +175,7 @@
 
     .content3-dark{
         position: relative;
-        top: -100px;
+        /*top: -100px;*/
         overflow: hidden
     }
 
@@ -276,7 +276,7 @@
 
     .content3{
         position: relative;
-        top: -100px;
+        /*top: -100px;*/
         overflow: hidden
     }
 
@@ -512,7 +512,8 @@
 
     .text-carding{
         position: relative;
-        top: -70px;
+        margin-top: 30px;
+        /*top: -70px;*/
     }
 
     .text-carding2{
@@ -531,7 +532,7 @@
     .divider_mb{
         width:200px;
         margin: auto;
-        margin-bottom: 13rem;
+        margin-bottom: 5rem;
     }
 
     .title_press_mb{
@@ -562,4 +563,7 @@
         width: 100%;
         -webkit-filter: brightness(0%)!important;
     }
-    
+
+    .tittle_daniel{
+        margin-top: 5rem;
+    }
