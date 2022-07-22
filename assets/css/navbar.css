@@ -64,6 +64,10 @@
     .hiden_responsive_pc_tittle_pc{
         display: none!important;
     }
+    .brand_logo{
+        width: 100%;
+    }
+
 }
 
 /*para pantallas chicas*/
