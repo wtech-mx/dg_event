@@ -35,6 +35,7 @@
         opacity: 0.5;
         -webkit-filter: grayscale(100%);
         filter: grayscale(100%);
+        width: 100%;
     }
 
     .video_style{
@@ -537,31 +538,6 @@
 
     .title_press_mb{
         margin-top: 6rem!important;
-    }
-
-    .brand_1{
-        width: 95%;
-        -webkit-filter: brightness(0%)!important;
-        padding-bottom: 60px!important;
-    }
-
-    .brand_2{
-        width: 80%;
-        -webkit-filter: brightness(0%)!important;
-    }
-
-    .brand_3{
-        width: 85%;
-    }
-
-    .brand_4{
-        width: 80%;
-        -webkit-filter: brightness(0%)!important;
-    }
-
-    .brand_5{
-        width: 75%;
-        -webkit-filter: brightness(0%)!important;
     }
 
     .tittle_daniel{
