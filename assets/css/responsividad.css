@@ -5,6 +5,11 @@
         width: 100%;
         object-fit: fill;
     }
+
+    .img-daneil{
+        margin-top: 30px;
+        margin-left: 500px;
+    }
 }
 
 @media screen and (max-width: 2200px) {
@@ -71,6 +76,11 @@
         width: 100%;
         object-fit: fill;
     }
+
+    .img-daneil{
+        margin-top: 0px;
+        margin-left: 150px;
+    }    
 }
 
 @media screen and (max-width: 1300px) {
@@ -83,6 +93,7 @@
     .img-daneil{
         width: 300px;
         margin-top: 70px;
+        margin-left: 120px;
     }
 }
 
@@ -97,6 +108,11 @@
     .text-paraf {
         font-size: 10px;
     }
+
+    .img-daneil{
+        margin-top: 0px;
+        margin-left: 50px;
+    }    
 }
 
 
@@ -118,6 +134,13 @@
         height: 100%!important;
         max-height: 490px!important;
     }
+
+    .img-daneil{
+        margin-top: 90px;
+        width: 250px;
+        margin-left: 60px;
+    }   
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -133,6 +156,12 @@
         width: 100%;
         object-fit: fill;
     }
+
+    .img-daneil{
+        margin-top: 120px;
+        width: 200px;
+        margin-left: 50px;
+    }    
 }
 
 
