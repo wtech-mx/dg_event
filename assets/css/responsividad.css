@@ -45,6 +45,10 @@
     .text-paraf {
         font-size: 10px;
     }
+
+    .max_content_press{
+        max-width: 150px;
+    }
     
 }
 
@@ -67,6 +71,16 @@
     }
     .tittle_daniel{
         margin-top: 0rem;
+    }
+
+    .max_content_press{
+        max-width: 120px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .max_content_press{
+        max-width: 90px;
     }
 }
 
