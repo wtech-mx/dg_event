@@ -7,7 +7,7 @@
     }
 
     .img-daneil{
-        margin-left: 150px;
+        margin-left: 500px;
     }
 }
 
@@ -75,6 +75,10 @@
         width: 100%;
         object-fit: fill;
     }
+
+    .img-daneil{
+        margin-left: 150px;
+    }    
 }
 
 @media screen and (max-width: 1300px) {
