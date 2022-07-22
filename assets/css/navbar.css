@@ -45,6 +45,14 @@
         }
     }
 
+    @media screen and (max-width: 1000px) {
+        .video_style{
+            height: 690px!important;
+            max-height: 700px!important;
+        }
+    }
+
+    
     @media screen and (max-width: 800px) {
          .tittle_thin{
             font-size: 15px;
