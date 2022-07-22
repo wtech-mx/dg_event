@@ -46,7 +46,7 @@
 @media screen and (max-width: 1400px) {
     .video_style{
         height: 100%;
-        max-height: 500px;
+        max-height: 480px;
         width: 100%;
         object-fit: fill;
     }
