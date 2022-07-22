@@ -93,6 +93,7 @@
     .img-daneil{
         width: 300px;
         margin-top: 70px;
+        margin-left: 120px;
     }
 }
 
@@ -133,6 +134,13 @@
         height: 100%!important;
         max-height: 490px!important;
     }
+
+    .img-daneil{
+        margin-top: 90px;
+        width: 250px;
+        margin-left: 60px;
+    }   
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -150,8 +158,9 @@
     }
 
     .img-daneil{
-        margin-top: 0px;
-        margin-left: 30px;
+        margin-top: 120px;
+        width: 200px;
+        margin-left: 50px;
     }    
 }
 
