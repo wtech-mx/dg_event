@@ -88,7 +88,7 @@
 @media screen and (max-width: 1800px) {
     .video_style{
         height: 100%;
-        max-height: 470px;
+        max-height: 720px;
         width: 100%;
         object-fit: fill;
     }
@@ -101,7 +101,7 @@
 @media screen and (max-width: 1700px) {
     .video_style{
         height: 100%;
-        max-height: 500px;
+        max-height: 720px;
         width: 100%;
         object-fit: fill;
     }
@@ -118,6 +118,8 @@
         margin-left: 350px;
     }
 
+
+
     .text-danieg{
         margin-right: 180px;
     }
@@ -126,7 +128,7 @@
 @media screen and (max-width: 1600px) {
     .video_style{
         height: 100%;
-        max-height: 440px;
+        max-height:740px;
         width: 100%;
         object-fit: fill;
     }
@@ -149,7 +151,7 @@
 @media screen and (max-width: 1500px) {
     .video_style{
         height: 100%;
-        max-height: 460px;
+        max-height: 740px;
         width: 100%;
         object-fit: fill;
     }
@@ -162,7 +164,7 @@
 @media screen and (max-width: 1400px) {
     .video_style{
         height: 100%;
-        max-height: 480px;
+        max-height: 720px;
         width: 100%;
         object-fit: fill;
     }
@@ -180,7 +182,7 @@
 @media screen and (max-width: 1300px) {
     .video_style{
         height: 100%;
-        max-height: 500px;
+        max-height: 720px;
         width: 100%;
         object-fit: fill;
     }
