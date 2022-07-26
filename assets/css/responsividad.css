@@ -360,6 +360,13 @@
         font-size: 8px;
     }
 
+    .video_style {
+        height: 600px!important;
+        max-height: 1000px!important;
+        width: 100%;
+        object-fit: cover;
+    }
+
 }
 
 @media screen and (max-width: 360px) {
