@@ -545,3 +545,16 @@
     .tittle_daniel{
         margin-top: 5rem;
     }
+
+    .text-footer-mb-dark{
+        color: #ffff !important;
+        font-size: 8px;
+        font-family: "Montserrat-Medium";
+        letter-spacing: 2px;
+    }
+
+    .text-footer-mb{
+        font-size: 8px;
+        font-family: "Montserrat-Medium";
+        letter-spacing: 2px;
+    }
