@@ -245,7 +245,7 @@
     }
 
     .owl-theme .owl-nav .owl-prev [class*=owl-]:hover{
-        content: url("./../img/arrow_left_bold.png");
+        content: url("./../img/arrow_left_bold.webp");
         width: 25px;
         height: 40px;
         margin-top: 15px;
@@ -253,7 +253,7 @@
     }
 
     .owl-theme .owl-nav .owl-next [class*=owl-]:hover{
-        content: url("./../img/arrow_rigth_bold.png");
+        content: url("./../img/arrow_rigth_bold.webp");
         width: 25px;
         height: 40px;
         margin-top: 15px;
