@@ -558,3 +558,8 @@
         font-family: "Montserrat-Medium";
         letter-spacing: 2px;
     }
+
+    .btn_hamburger{
+        color:#fff;
+        font-size:28px;
+    }
