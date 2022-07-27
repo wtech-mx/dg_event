@@ -825,8 +825,8 @@
     }
 
     .video_style {
-        height: 750px!important;
-        max-height: 1000px!important;
+        height: auto;
+        max-height: none;
         width: 100%;
         object-fit: cover;
     }
@@ -839,12 +839,12 @@
     }
 
    .text-paraf {
-        font-size: 8px;
+        font-size: 5px;
     }
 
     .video_style {
-        height: 550px!important;
-        max-height: 1000px!important;
+        height: auto;
+        max-height: none;
         width: 100%;
         object-fit: cover;
     }
