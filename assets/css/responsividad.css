@@ -880,6 +880,11 @@
         object-fit: cover;
     }
 
+    .tittle_thin {
+        font-size: 8px;
+        letter-spacing: 4px;
+    }
+
 }
 
 @media screen and (max-width: 380px) {
