@@ -882,6 +882,14 @@
 
 }
 
-@media screen and (max-width: 360px) {
-
+@media screen and (max-width: 3800px) {
+    .img-daneil {
+        width: 250%;
+        margin-top: 3px;
+        margin-left: 0;
+    }
+    .text-paraf {
+        font-size: 7.5px;
+        letter-spacing: 1.3px;
+    }
 }
