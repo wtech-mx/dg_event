@@ -818,9 +818,15 @@
     } 
 }
 
+@media screen and (min-width: 576px) {
+    .hiden_responsive_pcc{
+        display: none!important;
+    }
+}
+
 @media screen and (max-width: 576px) {
     .img-daneil{
-        width: 160px;
+        width: 210%;
         margin-top: 3px;
         margin-left: 0;
     }
@@ -836,11 +842,25 @@
         object-fit: cover;
     }
 
+        .hiden_responsive_xsm{
+            display: none!important;
+        }
+
+        .text_just{
+              text-align: left!important;
+               margin-left: 90px;
+        }
+
+        .text-paraf {
+            font-size: 9px;
+            letter-spacing: 1.5px;
+        }
+
 }
 
 @media screen and (max-width: 460px) {
     .img-daneil{
-        width: 160px;
+        width: 220%;
         margin-top: 3px;
         margin-left: 0;
     }
