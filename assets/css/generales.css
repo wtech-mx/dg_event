@@ -265,6 +265,13 @@
         overflow: hidden
     }
 
+    .content_mb_xs_dark{
+        position: relative;
+        width: 135px;
+        height: 216px;
+        overflow: hidden
+    }
+
     .content3{
         position: relative;
         /*top: -100px;*/
@@ -303,6 +310,21 @@
 
     .content_mb_xs .content-overlay_mb_xs{
         background: rgba(228,228,228,0.7);
+        position: absolute;
+        width: 135px;
+        height: 216px;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0;
+        -webkit-transition: all 0.4s ease-in-out 0s;
+        -moz-transition: all 0.4s ease-in-out 0s;
+        transition: all 0.4s ease-in-out 0s
+    }
+
+    .content_mb_xs_dark .content-overlay_mb_xs_dark{
+        background: rgba(45,46,51,0.7);
         position: absolute;
         width: 135px;
         height: 216px;
@@ -359,6 +381,9 @@
         opacity: 1
     }
 
+    .content_mb_xs_dark:hover .content-overlay_mb_xs_dark{
+        opacity: 1
+    }
 
     .content3:hover .content-overlay3{
         opacity: 1
@@ -379,6 +404,13 @@
     }
 
     .content-image_mb_xs{
+        width: 105px;
+        height: auto;
+        object-fit: cover;
+        border: 0px solid #E4E4E4;
+    }
+
+    .content-image_mb_xs_dark{
         width: 105px;
         height: auto;
         object-fit: cover;
@@ -480,6 +512,21 @@
         transition: all 0.3s ease-in-out 0s;
     }
 
+    .content-details_mb_xs_dark{
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        opacity: 0;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        -moz-transition: all 0.3s ease-in-out 0s;
+        transition: all 0.3s ease-in-out 0s;
+    }
+
     .content:hover .content-details{
         top: 50%;
         left: 50%;
@@ -493,6 +540,12 @@
     }
 
     .content_mb_xs:hover .content-details_mb_xs{
+        top: 50%;
+        left: 50%;
+        opacity: 1;
+    }
+
+    .content_mb_xs_dark:hover .content-details_mb_xs_dark{
         top: 50%;
         left: 50%;
         opacity: 1;
@@ -555,6 +608,13 @@
         font-family: Montserrat-Medium;
         text-shadow: 1.5px 1.5px 1.5px rgba(255, 255, 255, 0.288);
         font-size: 6px;
+    }
+
+    .text_celebrating_mb_dark{
+        font-family: Montserrat-Medium;
+        text-shadow: 1.5px 1.5px 1.5px rgba(255, 255, 255, 0.288);
+        font-size: 6px;
+        color: #FFF;
     }
 
     .divider_mb{
