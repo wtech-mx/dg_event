@@ -819,6 +819,11 @@
 }
 
 @media screen and (max-width: 576px) {
+    .img-daneil{
+        width: 160px;
+        margin-top: 3px;
+        margin-left: 0;
+    }
 
     .max_content_press{
         max-width: 120px;
@@ -834,12 +839,18 @@
 }
 
 @media screen and (max-width: 460px) {
+    .img-daneil{
+        width: 160px;
+        margin-top: 3px;
+        margin-left: 0;
+    }
+
     .max_content_press{
         max-width: 90px;
     }
 
    .text-paraf {
-        font-size: 5px;
+        font-size: 8px;
     }
 
     .video_style {
