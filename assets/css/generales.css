@@ -258,6 +258,13 @@
         overflow: hidden
     }
 
+    .content_mb_xs{
+        position: relative;
+        width: 135px;
+        height: 216px;
+        overflow: hidden
+    }
+
     .content3{
         position: relative;
         /*top: -100px;*/
@@ -284,6 +291,21 @@
         position: absolute;
         width: 135px;
         height: 135px;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0;
+        -webkit-transition: all 0.4s ease-in-out 0s;
+        -moz-transition: all 0.4s ease-in-out 0s;
+        transition: all 0.4s ease-in-out 0s
+    }
+
+    .content_mb_xs .content-overlay_mb_xs{
+        background: rgba(228,228,228,0.7);
+        position: absolute;
+        width: 135px;
+        height: 216px;
         left: 0;
         top: 0;
         bottom: 0;
@@ -333,6 +355,11 @@
         opacity: 1
     }
 
+    .content_mb_xs:hover .content-overlay_mb_xs{
+        opacity: 1
+    }
+
+
     .content3:hover .content-overlay3{
         opacity: 1
     }
@@ -349,6 +376,13 @@
         height: 135px;
         object-fit: cover;
         border: 7px solid #E4E4E4;
+    }
+
+    .content-image_mb_xs{
+        width: 105px;
+        height: auto;
+        object-fit: cover;
+        border: 0px solid #E4E4E4;
     }
 
     .content-image-dark_mb{
@@ -431,6 +465,21 @@
         transition: all 0.3s ease-in-out 0s;
     }
 
+    .content-details_mb_xs{
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        opacity: 0;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        -moz-transition: all 0.3s ease-in-out 0s;
+        transition: all 0.3s ease-in-out 0s;
+    }
+
     .content:hover .content-details{
         top: 50%;
         left: 50%;
@@ -438,6 +487,12 @@
     }
 
     .content_mb:hover .content-details_mb{
+        top: 50%;
+        left: 50%;
+        opacity: 1;
+    }
+
+    .content_mb_xs:hover .content-details_mb_xs{
         top: 50%;
         left: 50%;
         opacity: 1;
@@ -492,8 +547,14 @@
             --bs-offcanvas-width: 300px;
     }
 
-.celebrating_cel{
+    .celebrating_cel{
         height: 82vh;
+    }
+
+    .text_celebrating_mb{
+        font-family: Montserrat-Medium;
+        text-shadow: 1.5px 1.5px 1.5px rgba(255, 255, 255, 0.288);
+        font-size: 6px;
     }
 
     .divider_mb{
