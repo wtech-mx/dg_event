@@ -1,0 +1,963 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DG Event Planning 2022©</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
+
+    <!--css custom-->
+    <link rel="stylesheet" href="./assets/css/colors.css">
+    <link rel="stylesheet" href="./assets/css/fonts.css">
+    <link rel="stylesheet" href="./assets/css/navbar.css">
+    <link rel="stylesheet" href="./assets/css/generales.css">
+    <link rel="stylesheet" href="./assets/css/ow-custom.css">
+    <link rel="stylesheet" href="./assets/css/modal_form.css">
+    <link rel="stylesheet" href="./assets/css/responsividad.css">
+
+    <!--load all Font Awesome styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  </head>
+
+  <body>
+
+  <!--        _____________________-->
+    <!--        navbar-->
+    <!--        _____________________-->
+
+  <style>
+      .form-switch .form-check-input{
+          border:1.6px solid #63686E;
+          background-color: #E4E4E4;
+          background-image: url(data:image/svg+xml,%3csvg xmlns='https://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e);
+      }
+
+    .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+        color: #000000;
+        font-weight: bold;
+    }
+
+    .nav-link:focus, .nav-link:hover{
+        color: #000000 !important;
+    }
+
+    .dropdown-menu{
+        background-color: #E4E4E4;
+        border: 1px solid transparent;
+        border-radius: 0px;
+        color: #000000;
+    }
+
+    .dropdown-item:hover{
+        background-color: #E4E4E4;
+        color: #000000;
+    }
+
+
+  </style>
+
+  <nav class="navbar fixed-top navbar-expand-lg bg-primario navbar-box">
+    <div class="container-fluid ">
+
+      <div class="row hiden_responsive_pc p-2">
+        <div class="col-12">
+
+            <a class="nav-link dropdown-toggle tittle_menu2 ml_navbar_res" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ES<i class="bi bi-chevron-down arrowfont" style="color: #000;"></i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item tittle_menu2" href="./index.html">INGLES</a></li>
+              <li><a class="dropdown-item tittle_menu2" href="./index-es.html">ESPAÑOL</a></li>
+            </ul>
+
+          <div class="form-check form-switch" style="padding-left: 3em;">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onclick="Redirect()">
+          </div>
+        </div>
+      </div>
+
+        <div class="content_logo_responsive hiden_responsive_pc p-2">
+          <img class="img_logo_navres" src="./assets/img//logo.webp" >
+        </div>
+
+          <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <i class="bi bi-list btn_hamburger_ligth"></i>
+          </button>
+
+          <div class="collapse navbar-collapse navbar_mb mt-3 ml-5 mr-5" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-fill w-100 d-flex align-items-end">
+              <li class="nav-item">
+                <a class="nav-link tittle_menu" aria-current="page" href="#nav-about">ACERCA DE</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link tittle_menu" aria-current="page" href="#dg_mb">DG</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle tittle_menu" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="bi bi-chevron-down" style="color: #000;"></i> EVENTOS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="margin-top: 15px; position: absolute; left: 30%;">
+                  <li><a class="dropdown-item tittle_menu" href="#nav-weddings">BODAS</a></li>
+                  <li><a class="dropdown-item tittle_menu" href="#nav-weddings">CELEBRACIONES</a></li>
+                  <li><a class="dropdown-item tittle_menu" href="#nav-weddings">BODAS DE DESTINO</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link tittle_menu" href="#nav-gallery">GALERÍA</a>
+              </li>
+
+              <li class="nav-item hiden_responsive_sm ">
+                <a class="navbar-brand" href="#">
+                  <img src="./assets/img/logo.webp" alt="" width="220"  class="d-inline-block align-text-top" style="margin-bottom: 5px;">
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link tittle_menu" href="#nav-services">SERVICIOS</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link tittle_menu" href="#nav-press">PRENSA</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link tittle_menu estilo_ios" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" >CONTACTO</a>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav nav-fill hiden_responsive_sm " style="position: relative;top: -25px;margin-right:40px">
+              <div class="row">
+                <div class="col-12">
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle tittle_menu2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      ES<i class="bi bi-chevron-down arrowfont" style="color: #000;"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item tittle_menu2" href="./index.html">INGLES</a></li>
+                      <li><a class="dropdown-item tittle_menu2" href="./index-es.html">ESPAÑOL</a></li>
+                    </ul>
+
+                  </li>
+
+                  <div class="form-check form-switch" style="padding-left: 3em;">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onclick="Redirect()">
+                  </div>
+                </div>
+              </div>
+            </ul>
+
+          </div>
+
+          <div class="offcanvas offcanvas-end hiden_responsive_pc" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+            <div class="d-flex justify-content-around p-3">
+
+                <div class="row hiden_responsive_pc ">
+                    <div class="col-12">
+                        <li class="nav-item dropdown" style="list-style: none;">
+                            <a class="nav-link dropdown-toggle tittle_menu2 ml_navbar_res" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              ES<i class="bi bi-chevron-down arrowfont" style="color: #000;"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item tittle_menu2" href="./index.html">INGLES</a></li>
+                              <li><a class="dropdown-item tittle_menu2" href="./index-es.html">ESPAÑOL</a></li>
+                            </ul>
+                        </li>
+
+                      <div class="form-check form-switch" style="padding-left: 3em;">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onclick="Redirect()">
+                      </div>
+                    </div>
+                </div>
+
+                <div class="content_logo_responsive hiden_responsive_pc ">
+                  <img class="img_logo_navres" src="./assets/img/logo.webp" >
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-dismiss="offcanvas" aria-label="Close">
+                  <i class="bi bi-x-square-fill"></i>
+                </button>
+
+            </div>
+
+            <div class="d-flex justify-content-around p-3">
+
+              <ul class="navbar-nav " style="text-align: center;min-width: 250px;">
+
+              <li class="nav-item" style="background-color: #f1f1f1">
+                <a class="nav-link tittle_menu" aria-current="page" href="#nav-about">INICIO</a>
+              </li>
+
+              <li class="nav-item" style="background-color: #cbcbcb">
+                <a class="nav-link tittle_menu" aria-current="page" href="#nav-about">ACERCA DE</a>
+              </li>
+
+                <li class="nav-item dropdown" style="background-color: #f1f1f1">
+                  <a class="nav-link dropdown-toggle tittle_menu" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    EVENTOS
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item text-center tittle_menu" href="#nav-weddings">BODAS</a></li>
+                      <li><a class="dropdown-item text-center tittle_menu" href="#nav-weddings">CELEBRACIONES</a></li>
+                      <li><a class="dropdown-item text-center tittle_menu" href="#nav-weddings">BODAS DE DESTINO</a></li>
+                  </ul>
+                </li>
+
+              <li class="nav-item" style="background-color: #cbcbcb">
+                <a class="nav-link tittle_menu" href="#nav-gallery">GALERÍA</a>
+              </li>
+
+              <li class="nav-item" style="background-color: #f1f1f1">
+                <a class="nav-link tittle_menu" href="#nav-services">SERVICIOS</a>
+              </li>
+
+              <li class="nav-item" style="background-color: #cbcbcb">
+                <a class="nav-link tittle_menu" href="#nav-press">PRENSA</a>
+              </li>
+
+              <li class="nav-item" style="background-color: #f1f1f1">
+                <a class="nav-link tittle_menu estilo_ios" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="text-decoration: none;">CONTACTO</a>
+              </li>
+
+              </ul>
+
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <img src="./assets/icons/whats.webp" style="width:15px;height:15px!important;margin-right: 5px;opacity: 0.6;">
+                <img src="./assets/icons/envelope.webp" style="width: 22px;height: 23px!important;margin-right: 20px;opacity: 0.6;position: relative;top: -3px;">
+                <img src="./assets/icons/insta.webp" style=" width: 15px;height:15px!important;opacity: 0.6;">
+                <img src="./assets/icons/face.webp" style="width:15px;height:15px!important;opacity: 0.6;">
+                <img src="./assets/icons/tiktok.webp" style=" width: 15px;height:15px!important;opacity: 0.6;">
+            </div>
+
+              <p class="text-center text-muted mt-2 text-footer-mb">DG Event Planning 2022©</p>
+
+          </div>
+
+    </div>
+  </nav>
+
+    <!--        _____________________-->
+    <!--        Video-->
+    <!--        _____________________-->
+
+    <section class="video">
+      <video class="video_style" id="myVideo" src="https://dgeventplanning.com/inicio/assets/img/DG_sinmarco2.mp4" autoplay muted  loop ></video>
+        <p class="text-center">
+<!--            <a class="text-play" type="button" onclick="playVid()">PLAY |</a>-->
+            <a class="pause estilo_ios"  id="mydiv" type="button" onclick="pauseplayVid()" style="font-family: 'Montserrat-Light';letter-spacing: 3px; font-size: 9px; text-shadow: 1.3px 1.3px 1.3px rgb(0 0 0 / 5%); color: #000000; text-decoration: none;">PAUSA </a>
+            <a class="text-play">|</a>
+            <a class="mute estilo_ios" type="button" onclick="enableMute()" style="font-family: 'Montserrat-Light';letter-spacing: 3px; font-size: 9px; text-shadow: 1.3px 1.3px 1.3px rgb(0 0 0 / 5%); color: #000000; text-decoration: none;">AUDIO</a> <br>
+            <a class="arrow_down" type="button" href="#nav-about" style="text-decoration: none;">
+               <img id="aks" src="assets/img/arrow_ligth.webp" style="width:35%;margin-top: 10px"/>
+            </a>
+        </p>
+    </section>
+
+    <section id="nav-about" style="position: relative;top: -130px;background: #ccc;"></section>
+
+    <!--        _____________________-->
+    <!--        About us-->
+    <!--        _____________________-->
+
+   <section class="py-3 text-center container-fluid mb-2" id="about_uss">
+      <div class="row ">
+        <div class="col-11 mx-auto ">
+          <h1 class="tittle_newyork">ABOUT US</h1>
+          <p class="lead text-paraf mt-4 hiden_responsive_sm">
+            El propósito de DG Event Planning como empresa es satisfacer las necesidades de nuestros clientes <br>
+            y asesorarlos en cada paso del proceso de planificación del evento, asegurando<br>
+            todas sus expectativas se cumplen cuidando cuidadosamente cada aspecto<br>
+            y dando vida a su visión. Aportamos a nuestros clientes el talento óptimo<br>
+            y consistencia, ideas creativas y únicas; dando belleza y armonia<br>
+            a cada detalle, nuestro objetivo más importante es que nuestros clientes puedan disfrutar de la<br>
+            proceso de planificación mientras los ayudamos a crear las experiencias de vida más memorables.<br>
+          </p>
+
+          <p class="lead text-paraf mt-4 hiden_responsive_pc">
+            El propósito de DG Event Planning como empresa es satisfacer las necesidades de nuestros clientes <br>
+            y asesorarlos en cada paso del proceso de planificación del evento, asegurando<br>
+            todas sus expectativas se cumplen cuidando cuidadosamente cada aspecto<br>
+            y dando vida a su visión. Aportamos a nuestros clientes el talento óptimo<br>
+            y consistencia, ideas creativas y únicas; dando belleza y armonia<br>
+            a cada detalle, nuestro objetivo más importante es que nuestros clientes puedan disfrutar de la<br>
+            proceso de planificación mientras los ayudamos a crear las experiencias de vida más memorables.<br>
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class=" text-center container-fluid" id="dg_mb">
+
+      <div class="row d-flex align-items-center hiden_responsive_xsm">
+
+        <div class="col-2 col-sm-12 col-md-4 p-3">
+          <div class="">
+            <img class="img-daneil" src="./assets/img/daniel_foto.webp" alt="">
+          </div>
+        </div>
+
+        <div class="col-9 col-sm-12 col-md-8 p-3 content_daniel_p">
+          <div class="text-danieg">
+            <div class="content_bio">
+              <h1 class="tittle_newyork tittle_daniel" style="">DANIEL GUAIDA</h1>
+              <p class="lead text-paraf  mt-4">
+                Director creativo de DGEventPlanning, ha estado haciendo olas <br>
+                 con sus diseños e ideas desde que empezó a trabajar con flores <br>
+                 y bodas en 2016. El trabajo de Daniel es una combinación de su amor <br>
+                 por flores, arte, estética y diseño. Sus creaciones son innovadoras <br>
+                 y moderno: utiliza la forma, el color y la simplicidad para producir <br>
+                 Experiencia espectacular y única en cada proyecto. <br> <br>
+                 Su impecable actuación y buen gusto le han llevado a celebrar <br>
+                 eventos internacionales en diferentes partes del mundo, así como para <br>
+                 colaborar con marcas de lujo internacionales y celebridades. <br><br>
+                 Daniel ha demostrado traspasar los límites del diseño floral moderno <br>
+                 y seguirá marcando tendencia en los años venideros. <br>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row hiden_responsive_pcc">
+          <div class="col-12">
+              <h1 class="tittle_newyork tittle_daniel mb-4" style="">DANIEL GUAIDA</h1>
+          </div>
+          <div class="col-3">
+            <img class="img-daneil" src="./assets/img/daniel_foto.webp" alt="">
+          </div>
+
+          <div class="col-9">
+              <p class="text_just text-paraf">
+                 Director creativo de DGEventPlanning, ha estado haciendo olas.
+                 con sus diseños e ideas desde que empezó a trabajar con flores
+                 y bodas en 2016. El trabajo de Daniel es una combinación de su amor
+                 para flores, arte, estética y diseño. Sus creaciones son innovadoras.
+                 y de moda: utiliza la forma, el color y la simplicidad para producir
+                 Experiencia espectacular y única en cada proyecto. <br> <br>
+                 Su impecable actuación y buen gusto le han llevado a ocupar
+                 eventos internacionales en diferentes partes del mundo, así como para
+                 colaborar con marcas de lujo internacionales y celebridades. <br><br>
+                 Daniel ha demostrado traspasar los límites del diseño floral moderno
+                 y seguirá marcando tendencia en los años venideros.
+              </p>
+          </div>
+      </div>
+
+    </section>
+
+    <!--        _____________________-->
+    <!--        Gallery-->
+    <!--        _____________________-->
+
+    <section id="nav-gallery" style="position: relative;top: -90px;background: #ccc;"></section>
+
+    <section class="testimonials text-center container-fluid bg-secundario mt-5" id="testimonials_mb">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="tittle_newyork mt-5 mb-3">GALERÍA</h1>
+
+            <div class="carousel-wrap p-3 card_sinsaltar" >
+                <div class="owl-carousel owl-theme" id="customers-testimonials">
+
+                  <div class="item">
+                    <div class="shadow-effect">
+                        <img class="img-gallery" src="./assets/img/gallery/13.webp" />
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="shadow-effect">
+                        <img class="img-gallery" src="./assets/img/gallery/1.webp" />
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="shadow-effect">
+                        <img class="img-gallery" src="./assets/img/gallery/16.webp" />
+                    </div>
+                  </div>
+
+                  <div class="item">
+                      <div class="shadow-effect">
+                          <img class="img-gallery" src="./assets/img/gallery/2.webp" />
+                      </div>
+                  </div>
+
+                  <div class="item">
+                      <div class="shadow-effect">
+                          <img class="img-gallery" src="./assets/img/gallery/3.webp" />
+                      </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="shadow-effect">
+                        <img class="img-gallery" src="./assets/img/gallery/4.webp" />
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="shadow-effect">
+                        <img class="img-gallery" src="./assets/img/gallery/18.webp" />
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="shadow-effect">
+                        <img class="img-gallery" src="./assets/img/gallery/5.webp" />
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="shadow-effect">
+                        <img class="img-gallery" src="./assets/img/gallery/8.webp" />
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="shadow-effect">
+                        <img class="img-gallery" src="./assets/img/gallery/9.webp" />
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="shadow-effect">
+                        <img class="img-gallery" src="./assets/img/gallery/11.webp" />
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="shadow-effect">
+                        <img class="img-gallery" src="./assets/img/gallery/14.webp" />
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="shadow-effect">
+                        <img class="img-gallery" src="./assets/img/gallery/15.webp" />
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="shadow-effect">
+                        <img class="img-gallery" src="./assets/img/gallery/20.webp" />
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="shadow-effect">
+                        <img class="img-gallery" src="./assets/img/gallery/12.webp" />
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="shadow-effect">
+                        <img class="img-gallery" src="./assets/img/gallery/6.webp" />
+                    </div>
+                  </div>
+
+                  <div class="item">
+                      <div class="shadow-effect">
+                          <img class="img-gallery" src="./assets/img/gallery/21.webp" />
+                      </div>
+                  </div>
+
+                </div>
+              </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!--        _____________________-->
+    <!--        Services-->
+    <!--        _____________________-->
+
+    <section id="nav-services" style="position: relative;top: -100px;background: #ccc;"></section>
+
+    <section class="py-5 text-center container" id="">
+      <div class="row py-lg-5">
+        <div class="col-12 mx-auto ">
+          <h1 class="tittle_newyork serv_mb mb-5">SERVICIOS</h1>
+
+         <div class="content_services_pc hiden_responsive_sm">
+          
+              <div class="d-flex justify-content-between " style="padding: 0px 10px 30px 10px">
+
+                  <div class="content">
+                      <div class="content-overlay"></div>
+                      <img class="content-image" src="./assets/img/services/CULINARY.webp">
+                      <div class="content-details fadeIn-bottom">
+                          <h3 class="content-title">CULINARIO</h3>
+                      </div>
+                  </div>
+
+                  <div class="content">
+                      <div class="content-overlay"></div>
+                      <img class="content-image" src="./assets/img/services/FLOWERS AND DECO.webp">
+                      <div class="content-details fadeIn-bottom">
+                          <h3 class="content-title">FLORALES Y <br> DECORACIÓN</h3>
+                      </div>
+                  </div>
+
+                  <div class="content">
+                      <div class="content-overlay"></div>
+                      <img class="content-image" src="./assets/img/services/CANDY TABLE.webp">
+                      <div class="content-details fadeIn-bottom">
+                          <h3 class="content-title">MESAS DE <br> DULCES</h3>
+                      </div>
+                  </div>
+
+                  <div class="content">
+                      <div class="content-overlay"></div>
+                      <img class="content-image" src="./assets/img/services/PHOTO AND VIDEO.webp">
+                      <div class="content-details fadeIn-bottom">
+                          <h3 class="content-title">FOTO Y <br> VIDEO</h3>
+                      </div>
+                  </div>
+
+              </div>
+          
+
+           <div class="row mt-5">
+               <div class="d-flex justify-content-evenly">
+
+                  <div class="content">
+                      <div class="content-overlay"></div>
+                      <img class="content-image" src="./assets/img/services/MUSIC AND ENTERTAINMENT.webp">
+                      <div class="content-details2 fadeIn-bottom">
+                          <h3 class="content-title">MUSICA Y<br> ENTRETENIMIENTO</h3>
+                      </div>
+                  </div>
+
+                  <div class="content">
+                      <div class="content-overlay"></div>
+                      <img class="content-image" src="./assets/img/services/TRANSPORTATION.webp">
+                      <div class="content-details2 fadeIn-bottom">
+                          <h3 class="content-title">TRANSPORTE</h3>
+                      </div>
+                  </div>
+
+                  <div class="content">
+                      <div class="content-overlay"></div>
+                      <img class="content-image" src="./assets/img/services/ACCOMMODATION.jpeg">
+                      <div class="content-details2 fadeIn-bottom">
+                          <h3 class="content-title">ALOJAMIENTOS</h3>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+         </div>
+
+         <div class="content_services_mb hiden_responsive_pc">
+            <div class="row">
+                <div class="col-6 p-1">
+                    <div class="d-flex justify-content-center">
+                      <div class="content_mb">
+                          <div class="content-overlay_mb"></div>
+                          <img class="content-image_mb" src="./assets/img/services/CULINARY.webp">
+                          <div class="content-details_mb fadeIn-bottom">
+                              <h3 class="content-title" style="font-size: 11px;">CULINARIO</h3>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="col-6 p-1">
+                    <div class="d-flex justify-content-center">
+                      <div class="content_mb">
+                          <div class="content-overlay_mb"></div>
+                          <img class="content-image_mb" src="./assets/img/services/FLOWERS AND DECO.webp">
+                          <div class="content-details_mb fadeIn-bottom">
+                              <h3 class="content-title" style="font-size: 9px;">FLORALES Y <br> DECORACIÓN</h3>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="col-6 p-1">
+                    <div class="d-flex justify-content-center">
+                      <div class="content_mb">
+                          <div class="content-overlay_mb"></div>
+                          <img class="content-image_mb" src="./assets/img/services/CANDY TABLE.webp">
+                          <div class="content-details_mb fadeIn-bottom">
+                              <h3 class="content-title" style="font-size: 11px;">MESAS DE <br> DULCES</h3>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="col-6 p-1">
+                    <div class="d-flex justify-content-center">
+                      <div class="content_mb">
+                          <div class="content-overlay_mb"></div>
+                          <img class="content-image_mb" src="./assets/img/services/MUSIC AND ENTERTAINMENT.webp">
+                          <div class="content-details_mb fadeIn-bottom">
+                              <h3 class="content-title" style="font-size: 8px; letter-spacing: 2px;">MUSICA Y<br> ENTRETENIMIENTO</h3>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="col-6 p-1">
+                    <div class="d-flex justify-content-center">
+                      <div class="content_mb">
+                          <div class="content-overlay_mb"></div>
+                              <img class="content-image_mb" src="./assets/img/services/TRANSPORTATION.webp">
+                              <div class="content-details_mb fadeIn-bottom">
+                                  <h3 class="content-title" style="font-size: 9px">TRANSPORTE</h3>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+
+                <div class="col-6 p-1">
+                    <div class="d-flex justify-content-center">
+                      <div class="content_mb">
+                          <div class="content-overlay_mb"></div>
+                          <img class="content-image_mb" src="./assets/img/services/ACCOMMODATION.jpeg">
+                          <div class="content-details_mb fadeIn-bottom">
+                              <h3 class="content-title" style="font-size: 8px; letter-spacing: 4px;">ALOJAMIENTOS</h3>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+
+            </div>
+         </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!--        _____________________-->
+    <!--        celebrating-->
+    <!--        _____________________-->
+    <section id="nav-weddings" style="position: relative;top: -50px;background: #ccc;"></section>
+
+    <section class=" py-5 text-center container-fluid" >
+      <div class="row py-lg-5">
+        <div class="col-12">
+          <h1 class="tittle_newyork_life">LA VIDA VALE</h1>
+          <h1 class="tittle_thin_life">CELEBRANDO</h1>
+          <hr class="mt-2 text-center divider_mb" >
+            <div class="row p-2 bg-secundario hiden_responsive_sm">
+
+              <div class="col-md-4 mt-5">
+                    <div class="content3">
+                        <div class="content-overlay3"></div>
+                        <img class="content-image3" src="./assets/img/celebrating/1.webp " >
+
+                        <div class="content-details3 fadeIn-bottom3">
+                            <p style="font-family: Montserrat-Medium; text-shadow: 1.5px 1.5px 1.5px rgba(255, 255, 255, 0.288);">
+                              Brindamos el más alto nivel de <br> coordinación de bodas de servicio <br>completo y planificación. Como boda <br> profesional  planificadores, estamos <br> 
+                              comprometidos a hacer su evento de <br> boda sin estrés y disfrutable y la <br> ejecución impecable. <br><br>
+                              Si has imaginado tu sueño deshierbe <br> desde el momento en que ibas a comenzar <br>en la planificación de su boda, nosotros <br> trabajará con usted en cada
+                              paso <br> del camino. Cada boda y evento que <br> planeamos es exclusivos de nuestros <br> clientes y sus particularidades gustos y <br> aversiones y gusto específico y estilo.
+                            </p>
+                        </div>
+                        
+                    </div>
+                    <h2 class="text-carding tittle_thin">BODAS</h2>
+              </div>
+
+              <div class="col-md-4 mt-5 " id="nav-weddings">
+                  <div class="content3">
+                      <div class="content-overlay3"></div>
+                      <img class="content-image3" src="./assets/img/celebrating/5.webp " >
+                      <div class="content-details3 fadeIn-bottom3">
+                        <p style="font-family: Montserrat-Medium; text-shadow: 1.5px 1.5px 1.5px rgba(255, 255, 255, 0.288);">
+                          El Diseño es la imaginación,<br> creatividad e inspiración que hace <br>tu evento único. Nosotros trabajamos <br>de cerca con usted para descubrir su estilo<br>
+                          y luego usar ese conocimiento para <br> desarrollar cada componente estético de <br>su evento de papelería y <br>iluminación para flores y muebles.
+                        </p>
+                      </div>
+                  </div>
+                  <h2 class="text-carding tittle_thin">BODAS</h2>
+              </div>
+
+              <div class="col-md-4 mt-5 " id="nav-weddings">
+                    <div class="content3">
+                      <div class="content-overlay3"></div>
+                      <img class="content-image3" src="./assets/img/celebrating/6.webp " >
+                      <div class="content-details3 fadeIn-bottom3">
+                          <p style="font-family: Montserrat-Medium; text-shadow: 1.5px 1.5px 1.5px rgba(255, 255, 255, 0.288);">
+                            Por supuesto, el día de ensueño que<br>
+                            espera debe establecerse en un destino <br> 
+                            de ensueño perfecto para su boda. ya sea <br>
+                            que se imagine en las playas del Océano <br>
+                            Pacífico, las calles de Oaxaca, un bosque<br>
+                            escondido o un gran salón de baile de <br>
+                            principios de siglo, le brindaremos uno <br>
+                            de los lugares más mágicos imaginables <br>
+                            para celebrar su amor. Como su <br> 
+                            planificador de bodas de destino,<br>
+                            anticipamos y abordamos todos los <br>
+                            problemas que surgen, haciendo que <br>
+                            su experiencia y viajes sean increíbles<br>
+                            y sin estrés.
+                          </p>
+                      </div>
+                    </div>
+                  <h2 class="text-carding tittle_thin">DESTINO <br> BODAS</h2>
+              </div>
+            </div>
+
+         <div class="content_services_mb hiden_responsive_pc">
+            <div class="row bg-secundario" style="padding: 0.5rem;height: 40vh;">
+
+                <div class="col-4 p-1">
+                    <div class="d-flex justify-content-center">
+                      <div class="content_mb_xs">
+                          <div class="content-overlay_mb_xs"></div>
+                          <img class="content-image_mb_xs" src="./assets/img/celebrating/4.webp">
+                          <div class="content-details_mb_xs fadeIn-bottom">
+                              <p style="" class="text_celebrating_mb">
+                               Brindamos el más alto nivel de  coordinación de bodas de servicio completo y planificación. Como boda  profesional  planificadores, estamos
+                              comprometidos a hacer su evento de  boda sin estrés y disfrutable y la  ejecución impecable.
+                              Si has imaginado tu sueño deshierbe  desde el momento en que ibas a comenzar en la planificación de su boda, nosotros  trabajará con usted en cada
+                              paso  del camino. Cada boda y evento que  planeamos es exclusivos de nuestros  clientes y sus particularidades gustos y  aversiones y gusto específico y estilo.
+                              </p>
+                          </div>
+                      </div>
+                    </div>
+                    <h2 class="text-carding tittle_thin">BODAS</h2>
+                </div>
+
+                <div class="col-4 p-1">
+                    <div class="d-flex justify-content-center">
+                      <div class="content_mb_xs">
+                          <div class="content-overlay_mb_xs"></div>
+                          <img class="content-image_mb_xs" src="./assets/img/celebrating/5.webp">
+                          <div class="content-details_mb_xs fadeIn-bottom">
+                              <p style="" class="text_celebrating_mb">
+                            El Diseño es la imaginación,<br> creatividad e inspiración que hace <br>tu evento único. Nosotros trabajamos <br>de cerca con usted para descubrir su estilo<br>
+                          y luego usar ese conocimiento para <br> desarrollar cada componente estético de <br>su evento de papelería y <br>iluminación para flores y muebles.
+                              </p>
+                          </div>
+                      </div>
+                    </div>
+                    <h2 class="text-carding tittle_thin">CELEBRACIONES</h2>
+                </div>
+
+                <div class="col-4 p-1">
+                    <div class="d-flex justify-content-center">
+                      <div class="content_mb_xs">
+                          <div class="content-overlay_mb_xs"></div>
+                          <img class="content-image_mb_xs" src="./assets/img/celebrating/6.webp">
+                          <div class="content-details_mb_xs fadeIn-bottom">
+                            <p style="" class="text_celebrating_mb">
+                            Por supuesto, el día de ensueño que
+                            espera debe establecerse en un destino
+                            de ensueño perfecto para su boda. ya sea
+                            que se imagine en las playas del Océano
+                            Pacífico, las calles de Oaxaca, un bosque
+                            escondido o un gran salón de baile de
+                            principios de siglo, le brindaremos uno
+                            de los lugares más mágicos imaginables
+                            para celebrar su amor. Como su
+                            planificador de bodas de destino,
+                            anticipamos y abordamos todos los
+                            problemas que surgen, haciendo que
+                            su experiencia y viajes sean increíbles
+                            y sin estrés.
+                              </p>
+                          </div>
+                      </div>
+                    </div>
+                    <h2 class="text-carding tittle_thin">DESTINO <br> BODAS</h2>
+                </div>
+            </div>
+         </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!--        _____________________-->
+    <!--        press-->
+    <!--        _____________________-->
+
+    <section class="mt-2 mb-5 text-center container" id="nav-press">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="tittle_newyork mb-3">PRESS</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <div class="d-flex justify-content-around max_content_press">
+            <img class="brand_logo " src="./assets/img/prensa/33.webp">
+            <img class="brand_logo "  src="./assets/img/prensa/55.webp">
+            <img class="brand_logo "  src="./assets/img/prensa/54.webp">
+            <img class="brand_logo "  src="./assets/img/prensa/34.webp">
+          </div>
+        </div>
+
+        <div class="col-12 d-flex justify-content-center">
+          <div class="d-flex justify-content-evenly max_content_press">
+            <img class="brand_logo " src="./assets/img/prensa/32.webp">
+            <img class="brand_logo " src="./assets/img/prensa/35.webp">
+            <img class="brand_logo " src="./assets/img/prensa/31.webp">
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!--        _____________________-->
+    <!--        Footter-->
+    <!--        _____________________-->
+
+
+    <section class="testimonials py-4 text-center container-fluid bg-secundario">
+      <div class="row ">
+        <div class="col-12">
+                <div class="mb-1">
+                  <a  href="https://wa.link/i73e1c" target="_blanck" style="text-decoration: none;">
+                    <img src="./assets/icons/whats.webp"  style="width:22px;height:22px!important;margin-right: 5px;opacity: 0.6;">
+                  </a>
+                  <a  href="mailto:info@dgeventplanning.com" target="_blanck" style="text-decoration: none;">
+                    <img src="./assets/icons/envelope.webp"  style="width:29px;height:29px!important;margin-right: 45px;opacity: 0.6;">
+                  </a>
+                  <a  href="https://instagram.com/danielguaida?igshid=YmMyMTA2M2Y=" target="_blanck" style="text-decoration: none;">
+                    <img src="./assets/icons/insta.webp"  style=" width: 22px;height:22px!important;opacity: 0.6;">
+                  </a>
+                  <a  href="https://www.facebook.com/Daniel-Guaida-Event-Planning-109570360569345/" target="_blanck" style="text-decoration: none;">
+                    <img src="./assets/icons/face.webp"  style="width:22px;height:22px!important;opacity: 0.6;">
+                  </a>
+                  <a  href="https://www.tiktok.com/@danielguaida" target="_blanck" style="text-decoration: none;">
+                    <img src="./assets/icons/tiktok.webp"  style=" width: 22px;height:22px!important;opacity: 0.6;">
+                  </a>  
+                </div>
+          
+          <a class="text-center tittle_footer">
+            DG Event Planning 2022©
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials py-3 text-center container">
+      <div class="row ">
+        <div class="col-12">
+
+          <a class="text-center heebo-light"  style="font-size: 12px !important; color: #63686E; text-decoration: none;">
+            web design by 
+          </a>
+
+          <a target="_blank" href="https://www.ilabagency.com"><img style="max-width: 4%; filter: contrast(0.4);" src="./assets/img/ilab.webp"></a>
+
+        </div>
+      </div>
+    </section>
+
+
+      <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <div class="modal-body bg-primario" style="border: 1px solid transparent">
+
+            <form class="row g-3">
+
+              <div class="col-md-12 mt-4 text-center">
+                <h5 class="tittle_newyork_form">CONTACTO</h5>
+              </div>
+
+              <div class="col-md-12">
+                <h5 class="tittle_form">CUÉNTANOS ACERCA DE TI!</h5>
+                <label for="" class="form-label label_form">Nombre</label>
+                <input type="text" class="form-control" id="">
+              </div>
+
+              <div class="col-md-12 mb-3">
+                <label for="" class="form-label label_form">Apellido</label>
+                <input type="text" class="form-control" id="">
+              </div>
+
+              <div class="col-md-12">
+                <h5 class="tittle_form">¿CUAL ES TU DIRECCIÓN?</h5>
+                <label for="" class="form-label label_form">Dirección</label>
+                <input type="text" class="form-control" id="">
+              </div>
+
+              <div class="col-md-6">
+                <label for="" class="form-label label_form">Ciudad</label>
+                <input type="text" class="form-control" id="">
+              </div>
+
+              <div class="col-md-6 mb-3">
+                <label for="" class="form-label label_form">Provincia / estado</label>
+                <input type="text" class="form-control" id="">
+              </div>
+
+               <div class="col-md-12">
+                <h5 class="tittle_form">¿CUÁL ES TU DIRECCIÓN DE CORREO ELECTRÓNICO?</h5>
+                <label for="" class="form-label label_form">Correo electrónico</label>
+                <input type="text" class="form-control" id="">
+              </div>
+
+               <div class="col-md-12">
+                <label for="" class="form-label label_form">¿QUÉ TIPO DE EVENTO ESTÁS PLANEANDO?</label>
+                <textarea class="form-control" id=""></textarea>
+              </div>
+
+              <div class="col-12 text-center">
+                <button type="submit" class="btn btn-primary btn-form">ENVIAR</button>
+              </div>
+
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<!--    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>-->
+<!--    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>-->
+
+    <script  src="./assets/js/videobutons.js"></script>
+
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src="https://raw.github.com/carhartl/jquery-cookie/master/jquery.cookie.js"></script>
+    <script src="./assets/js/jquery.tr.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script>
+  <script  src="./assets/js/traduccion.js"></script>
+
+    <script  src="./assets/js/ow-custom.js"></script>
+
+
+    <script>
+        function Redirect() {
+            window.location.href = "./index-es-dark.html";
+        }
+
+        $('#aks').hover(
+            function(){
+              $(this).attr('src','assets/img/arrow_bold.webp')
+            },
+            function(){
+              $(this).attr('src','assets/img/arrow_ligth.webp')
+            }
+        )
+
+    </script>
+
+  </body>
+</html>
