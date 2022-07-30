@@ -3,6 +3,7 @@ jQuery(document).ready(function ($){
 
         $('#customers-testimonials').owlCarousel({
             loop: true,
+			responsiveClass:true,
 			center: true,
 			items:3,
 			margin: 0,

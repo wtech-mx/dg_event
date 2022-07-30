@@ -3,6 +3,10 @@
     src: url("../fonts/Montserrat/Montserrat-Medium.ttf");
 }
 
+.estilo_ios{
+    -webkit-appearance: none;
+}
+
 .dropdown-toggle::after{
     display: none;
     font-family: "Montserrat-SemiBold";
